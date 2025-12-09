@@ -83,15 +83,18 @@ void processTask(int a[], int size) {
     cout << "Сума між ними: " << sum << "\n";
     cout << "Кількість між ними: " << count << endl;
 }
-            int arr[100]; // Створюємо масив із запасом (наприклад, на 100 елементів)
+void function(int a[], int size) {
+    int m1 = 2e9, m2 = 2e9, i1 = 0, i2 = 0, s = 0, c = 0;
 
-            // Бажано обмежити n, щоб не вийти за межі 100
-            if (n > 100) n = 100; 
+    for (int i = 0; i < size; ++i) {
+        if (a[i] < m1) { m2 = m1; i2 = i1; m1 = a[i]; i1 = i; }
+        else if (a[i] < m2 && i != i1) { m2 = a[i]; i2 = i; }
+    }
 
-            cout << "Введіть " << n << " чисел: ";
-            for (int i = 0; i < n; i++) {
-                cin >> arr[i];
-            }
-            processTask(arr, n);
-            // delete[] arr; // Видаляти не потрібно
+    // Визначаємо межі без swap (L - лівий індекс, R - правий)
+    int L = (i1 < i2) ? i1 : i2, R = (i1 > i2) ? i1 : i2;
 
+    for (int i = L + 1; i < R; ++i) { s += a[i]; c++; }
+
+    cout << "Min1:" << m1 << " Min2:" << m2 << "\nSum:" << s << " Count:" << c << endl;
+}
