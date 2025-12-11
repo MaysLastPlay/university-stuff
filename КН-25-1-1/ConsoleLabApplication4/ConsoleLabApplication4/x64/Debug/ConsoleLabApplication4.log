@@ -1,4 +1,2 @@
 ﻿  ConsoleLabApplication4.cpp
-C:\Users\User\Downloads\КН-25-1-1\ConsoleLabApplication4\ConsoleLabApplication4\ConsoleLabApplication4.cpp(46,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\User\Downloads\КН-25-1-1\ConsoleLabApplication4\ConsoleLabApplication4\ConsoleLabApplication4.cpp(46,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  ConsoleLabApplication4.vcxproj -> C:\Users\User\Downloads\КН-25-1-1\ConsoleLabApplication4\x64\Debug\ConsoleLabApplication4.exe
+  ConsoleLabApplication4.vcxproj -> C:\Users\User\Downloads\university-stuff-main\КН-25-1-1\ConsoleLabApplication4\x64\Debug\ConsoleLabApplication4.exe
