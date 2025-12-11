@@ -84,8 +84,13 @@ void function(int a[], int size) {
 const int yay = 100;
 
 void vectorx(double X[], int n, int k) {
-    for (int j = 0; j < n; ++j) {
-        X[j] = (j + 1 <= k) ? k * sin(j + 1) : cos(j + 1);
+    for (int i = 0; i < n; ++i) {
+        int j = i + 1;
+        if (j <= k) {
+            X[i] = k * sin(j);
+        } else {
+            X[i] = cos(j);
+        }
     }
 }
 
@@ -145,4 +150,5 @@ int main() {
     result(Z, m);
 
     system("pause");
+
 }
