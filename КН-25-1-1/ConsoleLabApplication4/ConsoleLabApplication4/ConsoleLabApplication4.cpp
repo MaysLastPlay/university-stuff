@@ -70,3 +70,72 @@ if (i1 < i2) {
     cout << "Min1:" << min1 << " Min2:" << min2 << "\nSum:" << sum << " Count:" << count << endl;
 
 }
+
+const int MAX = 100;
+
+void calculateVectorX(double X[], int n, int k) {
+    for (int j = 0; j < n; ++j) {
+        X[j] = (j + 1 <= k) ? k * sin(j + 1) : cos(j + 1);
+    }
+}
+
+void multiplyMatrix(const double A[][MAX], const double X[], double Z[], int m, int n) {
+    for (int i = 0; i < m; ++i) {
+        Z[i] = 0;
+        for (int j = 0; j < n; ++j) {
+            Z[i] += A[i][j] * X[j];
+        }
+    }
+}
+
+void analyzeResult(const double Z[], int m) {
+    cout << "\n-----------------------------------" << endl;
+    cout << "Отриманий вектор Z: ";
+    for (int i = 0; i < m; ++i) {
+        cout << Z[i] << " ";
+    }
+    cout << endl;
+
+    for (int i = 0; i < m - 1; ++i) {
+        if (Z[i] > Z[i+1]) {
+            cout << "Результат: Вектор НЕ впорядкований." << endl;
+            cout << "Елемент, що порушив порядок: " << Z[i+1] << endl;
+            cout << "Порядковий номер елемента: " << i + 2 << endl;
+            cout << "-----------------------------------" << endl;
+            return;
+        }
+    }
+
+    cout << "Результат: Вектор впорядкований за збільшенням." << endl;
+    cout << "-----------------------------------" << endl;
+}
+
+int main() {
+    setlocale(LC_ALL, ""); // Для коректного виводу кирилиці
+
+    int m, n, k;
+    double A[MAX][MAX];
+    double X[MAX];
+    double Z[MAX];
+
+    cout << "Введіть кількість рядків (m): ";
+    cin >> m;
+    cout << "Введіть кількість стовпців (n): ";
+    cin >> n;
+    cout << "Введіть параметр k: ";
+    cin >> k;
+
+    cout << "Введіть елементи матриці A по рядках:\n";
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cout << "A[" << i + 1 << "][" << j + 1 << "]: ";
+            cin >> A[i][j];
+        }
+    }
+
+    calculateVectorX(X, n, k);
+    multiplyMatrix(A, X, Z, m, n);
+    analyzeResult(Z, m);
+
+    return 0;
+}
