@@ -52,7 +52,15 @@ void function(int a[], int size) {
             min2 = a[i]; i2 = i;
         }
     }
-    int L = (i1 < i2) ? i1 : i2, R = (i1 > i2) ? i1 : i2;
+    int L, R;
+if (i1 < i2) {
+    L = i1;
+    R = i2;
+} else {
+    L = i2;
+    R = i1;
+}
+
 
     for (int i = L + 1; i < R; ++i) {
         sum += a[i];
@@ -60,4 +68,5 @@ void function(int a[], int size) {
     }
 
     cout << "Min1:" << min1 << " Min2:" << min2 << "\nSum:" << sum << " Count:" << count << endl;
+
 }
