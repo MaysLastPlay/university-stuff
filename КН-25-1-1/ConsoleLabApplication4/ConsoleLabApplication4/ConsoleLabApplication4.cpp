@@ -86,40 +86,38 @@ const int yay = 100;
 void vectorx(double X[], int n, int k) {
     for (int i = 0; i < n; ++i) {
         int j = i + 1;
-        if (j <= k) {
+        if (j <= k)
             X[i] = k * sin(j);
-        } else {
+        else
             X[i] = cos(j);
-        }
     }
 }
 
-void idkwhattocallthis(const double A[][yay], const double X[], double Z[], int m, int n) {
-    for (int i = 0; i < m; ++i) {
-        Z[i] = 0;
-        for (int j = 0; j < n; ++j) {
-            Z[i] += A[i][j] * X[j];
+    void idkwhattocallthis(const double A[][yay], const double X[], double Z[], int m, int n) {
+        for (int i = 0; i < m; ++i) {
+            Z[i] = 0;
+            for (int j = 0; j < n; ++j) {
+                Z[i] += A[i][j] * X[j];
+            }
         }
     }
-}
-
-void result(const double Z[], int m) {
-    cout << "vector Z: ";
-    for (int i = 0; i < m; ++i) {
-        cout << Z[i] << " ";
+    void show(const double Z[], int m) {
+       
+        for (int i = 0; i < m; ++i) {
+            cout << Z[i] << " ";
+        }
+        cout << endl;
     }
-    cout << endl;
-
+int result(const double Z[], int m) {
     for (int i = 0; i < m - 1; ++i) {
         if (Z[i] > Z[i + 1]) {
-            cout << "Result: vector is not ordered." << endl;
+       
             cout << "element that disturbed the order: " << Z[i + 1] << endl;
             cout << "Element number: " << i + 2 << endl;
-            return;
+            return 0;
         }
     }
-
-    cout << "Result: vector sorted in ascending order." << endl;
+    return 1;
 }
 
 int main() {
@@ -147,8 +145,12 @@ int main() {
 
     vectorx(X, n, k);
     idkwhattocallthis(A, X, Z, m, n);
-    result(Z, m);
+    cout << "vector Z: ";
+    show(Z, m);
 
+    if (result(Z, m)==1)
+        cout << "Result: vector sorted in ascending order." << endl;
+    else
+        cout << "Result: vector is not ordered." << endl;
     system("pause");
-
 }
