@@ -1,0 +1,14 @@
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\lb1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\lb1.AssemblyInfoInputs.cache
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\lb1.AssemblyInfo.cs
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\lb1.csproj.CoreCompileInputs.cache
+C:\Users\User\KN-25-1\wewawewa\lb1\bin\Debug\net8.0\lb1.exe
+C:\Users\User\KN-25-1\wewawewa\lb1\bin\Debug\net8.0\lb1.deps.json
+C:\Users\User\KN-25-1\wewawewa\lb1\bin\Debug\net8.0\lb1.runtimeconfig.json
+C:\Users\User\KN-25-1\wewawewa\lb1\bin\Debug\net8.0\lb1.dll
+C:\Users\User\KN-25-1\wewawewa\lb1\bin\Debug\net8.0\lb1.pdb
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\lb1.dll
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\refint\lb1.dll
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\lb1.pdb
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\lb1.genruntimeconfig.cache
+C:\Users\User\KN-25-1\wewawewa\lb1\obj\Debug\net8.0\ref\lb1.dll
