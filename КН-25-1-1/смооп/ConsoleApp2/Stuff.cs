@@ -47,7 +47,8 @@ namespace LabApp
             int score = 0;
             double correctAnswer = 0;
             Console.WriteLine("Дай відповіді на наступні питання:");
-            do
+            //do {
+            for (question = 1; question <= 7; question++)
             {
                 Console.Clear();
                 switch (question)
@@ -81,7 +82,6 @@ namespace LabApp
                         correctAnswer = 12;
                         break;
                 }
-                question++;
                 Console.Write("\nВідповідь: ");
                 double userAnswer = Value();
                 if (userAnswer == correctAnswer)
@@ -98,15 +98,12 @@ namespace LabApp
                     Console.ResetColor();
                 }
                 Console.ReadKey();
-            } while (question <= 7);
+            }
+            //} while (question <= 7);
             switch (score)
             {
                 case 0:
-                    Console.WriteLine("Вам треба відпочити!");
-                    break;
                 case 1:
-                    Console.WriteLine("Вам треба відпочити!");
-                    break;
                 case 2:
                     Console.WriteLine("Вам треба відпочити!");
                     break;
@@ -199,7 +196,7 @@ namespace LabApp
             }
             Console.ReadKey();
         }
-        
+
         public static void MyTask6()
         {
             Console.WriteLine("Введіть число від 1 до 100: ");
@@ -215,25 +212,24 @@ namespace LabApp
                 if (number % 3 == 0 && number % 5 == 0)
                 {
                     Console.WriteLine("Fizz Buzz");
+                    return;
                 }
-                else if (number % 3 == 0)
+                if (number % 3 == 0)
                 {
                     Console.WriteLine("Fizz");
+                    return;
                 }
-                else if (number % 5 == 0)
+                if (number % 5 == 0)
                 {
                     Console.WriteLine("Buzz");
                 }
-                else
-                {
-                    Console.WriteLine(number);
-                }
+
+                Console.WriteLine(number);
+                return;
             }
-            else
-            {
-                Console.WriteLine("Це не число.");
-            }
+            Console.WriteLine("Це не число.");
         }
+ 
         public static void MyTask7()
         {
             int day, month, year;
