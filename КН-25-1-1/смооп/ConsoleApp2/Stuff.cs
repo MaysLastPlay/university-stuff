@@ -47,7 +47,7 @@ namespace LabApp
             int score = 0;
             double correctAnswer = 0;
             Console.WriteLine("Дай відповіді на наступні питання:");
-            //do {
+
             for (question = 1; question <= 7; question++)
             {
                 Console.Clear();
@@ -99,7 +99,7 @@ namespace LabApp
                 }
                 Console.ReadKey();
             }
-            //} while (question <= 7);
+
             switch (score)
             {
                 case 0:

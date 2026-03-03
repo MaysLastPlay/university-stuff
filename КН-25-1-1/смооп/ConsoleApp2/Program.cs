@@ -34,7 +34,7 @@
                         Console.WriteLine("Натисни будь-яку клавішу для завершення.");
                         break;
                     default:
-                        Console.WriteLine("Invalid task number.");
+                        Console.WriteLine("Відмова.");
                         break;
                 }
             }
