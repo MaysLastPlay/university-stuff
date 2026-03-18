@@ -126,22 +126,22 @@ namespace LabApp2
                 int expectedResult = 0;
                 string operationSymbol = "";
 
-                if (operationType == 0)
+                switch(operationType)
                 {
-                    expectedResult = num1 + num2;
-                    operationSymbol = "+";
-                }
-                else if (operationType == 1)
-                {
-                    expectedResult = num1 - num2;
-                    operationSymbol = "-";
-                }
-                else if (operationType == 2)
-                {
-                    num1 = random.Next(2, 11);
-                    num2 = random.Next(2, 11);
-                    expectedResult = num1 * num2;
-                    operationSymbol = "*";
+                    case 0:
+                        expectedResult = num1 + num2;
+                        operationSymbol = "+";
+                        break;
+                    case 1:
+                        expectedResult = num1 - num2;
+                        operationSymbol = "-";
+                        break;
+                    case 2:
+                        num1 = random.Next(2, 11);
+                        num2 = random.Next(2, 11);
+                        expectedResult = num1 * num2;
+                        operationSymbol = "*";
+                        break;
                 }
 
                 Console.Write($"Приклад {i}: {num1} {operationSymbol} {num2} = ");
@@ -160,21 +160,23 @@ namespace LabApp2
 
             Console.WriteLine($"Ви розв'язали правильно {correctAnswers} з {totalExamples} прикладів.");
 
+            Console.WriteLine(CreateResultMessage(correctAnswers, totalExamples));
+
+            Console.ReadKey();
+        }
+
+        private static string CreateResultMessage(int correctAnswers, int totalExamples)
+        {
             double score = (double)correctAnswers / totalExamples * 100;
             if (score >= 80)
             {
-                Console.WriteLine("Результат: Ви дуже розумні!");
+                return "Результат: Ви дуже розумні!";
             }
-            else if (score >= 50)
+            if (score >= 50)
             {
-                Console.WriteLine("Результат: Непогано, але потрібно більше практики.");
+                return "Результат: Непогано, але потрібно більше практики.";
             }
-            else
-            {
-                Console.WriteLine("Результат: Мозок потребує більше відпочинку та тренувань.");
-            }
-
-            Console.ReadKey();
+            return "Результат: Мозок потребує більше відпочинку та тренувань.";
         }
 
         static int userTotalScore = 0;
