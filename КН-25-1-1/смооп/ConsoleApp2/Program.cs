@@ -24,23 +24,23 @@
                 {
                     case 1:
                         Console.Clear();
-                        Tasks.Task1();
+                        Stuff.MyTask1();
                         break;
                     case 2:
                         Console.Clear();
-                        Tasks.Task2();
+                        Stuff.MyTask2();
                         break;
                     case 3:
                         Console.Clear();
-                        Tasks.Task3();
+                        Stuff.MyTask3();
                         break;
                     case 4:
                         Console.Clear();
-                        Tasks.Task4();
+                        Stuff.MyTask4();
                         break;
                     case 5:
                         Console.Clear();
-                        Tasks.Task5();
+                        Stuff.MyTask5();
                         break;
                     case 6:
                         Console.WriteLine("Відмова від виконання.");
