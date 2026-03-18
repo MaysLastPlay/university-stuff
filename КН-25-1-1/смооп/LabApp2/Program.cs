@@ -8,7 +8,7 @@
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             do
             {
-                Console.WriteLine("Вибери Завдання:\n 1 - Завдання 1\n 2 - Завдання 2\n 3 - Завдання 3\n 4 - Завдання 4\n 5 - Завдання 5\n 0 - Вихід");
+                Console.WriteLine("Вибери Завдання:\n 1 - Завдання 1\n 2 - Завдання 2\n 3 - Завдання 3\n 4 - Завдання 4\n 5 - Завдання 5\n 6 - Вихід");
                 if (!int.TryParse(Console.ReadLine(), out task))
                 {
                     Console.WriteLine("Невірний вибір. Спробуйте ще раз.");
@@ -53,8 +53,6 @@
                 Console.WriteLine("\nНатисніть будь-яку клавішу, щоб продовжити...");
                 Console.ReadKey();
                 Console.Clear();
-
-
             } while (task != 6);
         }
     }
