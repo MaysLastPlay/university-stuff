@@ -1,4 +1,4 @@
-﻿namespace LabApp3
+﻿namespace LabApp4
 {
     internal class Program
     {
@@ -14,7 +14,7 @@
                     Console.WriteLine("Невірний вибір. Спробуйте ще раз.");
                     continue;
                 }
-                if (task == 4)
+                if (task == 5)
                 {
                     Console.WriteLine("Вихід з програми. До побачення!");
                     break;
@@ -38,7 +38,7 @@
                         Console.WriteLine("Відмова від виконання.");
                         break;
                     default:
-                        Console.WriteLine("Невірний ввід. Введіть число від 1 до 5.");
+                        Console.WriteLine("Невірний ввід. Введіть число від 1 до 4.");
                         break;
                 }
 

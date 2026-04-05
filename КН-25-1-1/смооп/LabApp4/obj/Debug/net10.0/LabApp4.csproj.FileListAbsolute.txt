@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\LabApp4\bin\Debug\net10.0\LabApp4.exe
+E:\VS University Code\смооп\LabApp4\bin\Debug\net10.0\LabApp4.deps.json
+E:\VS University Code\смооп\LabApp4\bin\Debug\net10.0\LabApp4.runtimeconfig.json
+E:\VS University Code\смооп\LabApp4\bin\Debug\net10.0\LabApp4.dll
+E:\VS University Code\смооп\LabApp4\bin\Debug\net10.0\LabApp4.pdb
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\LabApp4.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\LabApp4.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\LabApp4.AssemblyInfo.cs
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\LabApp4.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\LabApp4.dll
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\refint\LabApp4.dll
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\LabApp4.pdb
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\LabApp4.genruntimeconfig.cache
+E:\VS University Code\смооп\LabApp4\obj\Debug\net10.0\ref\LabApp4.dll
