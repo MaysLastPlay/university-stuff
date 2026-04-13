@@ -7,127 +7,179 @@ namespace LabApp4
     internal class Tasks
     {
         static Random rnd = new Random();
+
         public static void Task1()
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.Write("Введіть m, n, k через пробіл: ");
-            string[] inputParams = Console.ReadLine().Split(' ');
-            int m = int.Parse(inputParams[0]);
-            int n = int.Parse(inputParams[1]);
-            int k = int.Parse(inputParams[2]);
 
-            double[][] A = InitMatrix(m, n);
+            Console.Write("Введіть m n k (через пробіл, як завжди): ");
+            var rawInput = Console.ReadLine();
 
-            double[] X = new double[n];
-            for (int j = 1; j <= n; j++)
+            string[] parts = rawInput.Split(' ');
+            int m = int.Parse(parts[0]);
+            int n = int.Parse(parts[1]);
+            int k = int.Parse(parts[2]);
+
+            double[][] matrixA = CreateMatrix(m, n);
+
+            double[] vectorX = new double[n];
+            for (int i = 0; i < n; i++)
             {
-                X[j - 1] = (j <= k) ? k * Math.Sin(j) : Math.Cos(j);
+                int j = i + 1;
+
+                if (j <= k)
+                    vectorX[i] = k * Math.Sin(j);
+                else
+                    vectorX[i] = Math.Cos(j);
             }
 
-            double[] Z = Multiply(A, X, m, n);
+            double[] resultZ = MultiplyMatrixByVector(matrixA, vectorX, m, n);
 
-            Console.Write("\nВектор Z: ");
-            for (int i = 0; i < Z.Length; i++)
+            Console.WriteLine("\nВектор Z (результат):");
+            foreach (var val in resultZ)
             {
-                Console.Write(Z[i].ToString("F2") + "  ");
+                Console.Write(val.ToString("F2") + "  ");
             }
+
             Console.WriteLine();
-            SaveResults("output.txt", Z);
-            CheckOrder(Z);
-        }
-        static double[][] InitMatrix(int m, int n)
-        {
-            double[][] A = new double[m][];
-            Console.WriteLine("\nОберіть спосіб заповнення матриці A:\n1 - З консолі\n2 - Випадковими числами\"\n3 - З файлу ");
 
-            switch (Console.ReadLine())
+            SaveToFile("output.txt", resultZ);
+            CheckIfSorted(resultZ);
+        }
+
+        static double[][] CreateMatrix(int rows, int cols)
+        {
+            double[][] mat = new double[rows][];
+
+            Console.WriteLine("\nСпосіб:\n1 - вручну\n2 - рандом\n3 - з файлу");
+
+            int choice = int.Parse(Console.ReadLine());
+
+            switch (choice)
             {
-                case "1":
-                    Console.WriteLine("Введіть елементи по рядку:");
-                    for (int i = 0; i < m; i++)
+                case 1:
                     {
-                        A[i] = new double[n];
-                        string[] rowInput = Console.ReadLine().Split(' ');
-                        for (int j = 0; j < n; j++)
+                        Console.WriteLine("Вводьте рядки матриці (по одному рядку):");
+
+                        for (int row = 0; row < rows; row++)
                         {
-                            A[i][j] = double.Parse(rowInput[j]);
-                        }
-                    }
-                    break;
-                case "2":
-                    Random rnd = new Random();
-                    for (int i = 0; i < m; i++)
-                    {
-                        A[i] = new double[n];
-                        for (int j = 0; j < n; j++)
-                        {
-                            A[i][j] = rnd.NextDouble() * 10;
-                        }
-                    }
-                    break;
-                case "3":
-                    using (StreamReader sr = new StreamReader("input.txt"))
-                    {
-                        for (int i = 0; i < m; i++)
-                        {
-                            A[i] = new double[n];
-                            string[] fileRow = sr.ReadLine().Split(' ');
-                            for (int j = 0; j < n; j++)
+                            mat[row] = new double[cols];
+
+                            string input = Console.ReadLine();
+
+                            string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+                            if (parts.Length < cols)
                             {
-                                A[i][j] = double.Parse(fileRow[j]);
+                                Console.WriteLine("Недостатньо значень, спробуй ще раз...");
+                                row--;
+                                continue;
+                            }
+
+                            for (int col = 0; col < cols; col++)
+                            {
+                                mat[row][col] = double.Parse(parts[col]);
                             }
                         }
+                        break;
+                    }
+                case 2:
+                    {
+                        for (int i = 0; i < rows; i++)
+                        {
+                            mat[i] = new double[cols];
+
+                            for (int j = 0; j < cols; j++)
+                            {
+                                mat[i][j] = rnd.NextDouble() * 10;
+                            }
+                        }
+                        break;
+                    }
+                case 3:
+                    {
+                        using (StreamReader reader = new StreamReader("input.txt"))
+                        {
+                            for (int i = 0; i < rows; i++)
+                            {
+                                mat[i] = new double[cols];
+
+                                string line = reader.ReadLine();
+                                string[] nums = line.Split(' ');
+
+                                for (int j = 0; j < cols; j++)
+                                {
+                                    mat[i][j] = double.Parse(nums[j]);
+                                }
+                            }
+                        }
+                        break;
+                    }
+                default:
+                    Console.WriteLine("заповнення 0");
+
+                    for (int i = 0; i < rows; i++)
+                    {
+                        mat[i] = new double[cols];
                     }
                     break;
             }
-            return A;
+
+            return mat;
         }
 
-        static double[] Multiply(double[][] A, double[] X, int m, int n)
+        static double[] MultiplyMatrixByVector(double[][] A, double[] X, int m, int n)
         {
-            double[] Z = new double[m];
+            double[] res = new double[m];
+
             for (int i = 0; i < m; i++)
             {
-                double sum = 0;
+                double tmpSum = 0;
+
                 for (int j = 0; j < n; j++)
                 {
-                    sum += A[i][j] * X[j];
+                    tmpSum += A[i][j] * X[j];
                 }
-                Z[i] = sum;
+
+                res[i] = tmpSum;
             }
-            return Z;
+            return res;
         }
 
-        static void SaveResults(string path, double[] Z)
+
+        static void SaveToFile(string fileName, double[] data)
         {
-            using (StreamWriter sw = new StreamWriter(path))
+            using (StreamWriter writer = new StreamWriter(fileName))
             {
-                for (int i = 0; i < Z.Length; i++)
+                for (int i = 0; i < data.Length; i++)
                 {
-                    sw.Write(Z[i].ToString("F2"));
-                    if (i < Z.Length - 1)
+                    writer.Write(data[i].ToString("F2"));
+                    if (i != data.Length - 1)
                     {
-                        sw.Write(" ");
+                        writer.Write(" ");
                     }
                 }
-                sw.WriteLine();
+
+                writer.WriteLine();
             }
-            Console.WriteLine($"(Результат також збережено у файл {path})");
+
+            Console.WriteLine($"{fileName}");
         }
 
-        static void CheckOrder(double[] Z)
+        static void CheckIfSorted(double[] arr)
         {
-            for (int i = 0; i < Z.Length - 1; i++)
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                if (Z[i] > Z[i + 1])
+                if (arr[i] > arr[i + 1])
                 {
-                    Console.WriteLine($"\nПорядок порушено! Елемент: {Z[i + 1]:F2} (індекс {i + 1})");
+                    Console.WriteLine($"\nЄ проблема: {arr[i + 1]:F2}, на індексі {i + 1}");
                     return;
                 }
             }
-            Console.WriteLine("\nВектор впорядкований за збільшенням.");
+
+            Console.WriteLine("\nВідсортовано");
         }
-        static void Task2()
+        public static void Task2()
         {
             int rows = rnd.Next(3, 6);
             int[][] arr = new int[rows][];
@@ -161,20 +213,22 @@ namespace LabApp4
                 }
             }
 
+            int firstRow = 0;
             if (maxI != -1 && maxJ != -1)
             {
                 Console.WriteLine($"\nНайбільший елемент: {maxVal} (рядок {maxI}, стовпець {maxJ})");
 
-                int[] tempRow = arr[0];
-                arr[0] = arr[maxI];
+                int[] tempRow = arr[firstRow];
+                arr[firstRow] = arr[maxI];
                 arr[maxI] = tempRow;
 
                 for (int i = 0; i < arr.Length; i++)
                 {
-                    if (arr[i].Length > maxJ && arr[i].Length > 0)
+                    int firstCol = 0;
+                    if (arr[i] != null && arr[i].Length > maxJ)
                     {
-                        int tempVal = arr[i][0];
-                        arr[i][0] = arr[i][maxJ];
+                        int tempVal = arr[i][firstCol];
+                        arr[i][firstCol] = arr[i][maxJ];
                         arr[i][maxJ] = tempVal;
                     }
                 }
@@ -189,38 +243,37 @@ namespace LabApp4
 
         public static void Task3()
         {
-            Console.WriteLine("--- Завдання 3: Перевірка на магічний квадрат ---");
-
-            int[][] magicSquare = new int[][]
+            int[][] firstTestSquare = new int[][]
             {
-            new int[] { 2, 7, 6 },
-            new int[] { 9, 5, 1 },
-            new int[] { 4, 3, 8 }
+    new int[] { 2, 7, 6 },
+    new int[] { 9, 5, 1 },
+    new int[] { 4, 3, 8 }
             };
 
-            Print(magicSquare, "Тестовий масив 1:");
-            bool isMagic1 = IsMagicSquare(magicSquare);
-            Console.WriteLine(isMagic1 ? "-> Це магічний квадрат!\n" : "-> Це НЕ магічний квадрат.\n");
+            Print(firstTestSquare, "Тестовий масив 1:");
+            bool resultOne = IsMagicSquare(firstTestSquare);
+            Console.WriteLine(resultOne ? "Це магічний квадрат!\n" : "Це НЕ магічний квадрат.\n");
 
-            int[][] notMagicSquare = new int[][]
+            int[][] secondTestSquare = new int[][]
             {
-            new int[] { 1, 2, 3 },
-            new int[] { 4, 5, 6 },
-            new int[] { 7, 8, 9 }
+    new int[] { 1, 2, 3 },
+    new int[] { 4, 5, 6 },
+    new int[] { 7, 8, 9 }
             };
 
-            Print(notMagicSquare, "Тестовий масив 2:");
-            bool isMagic2 = IsMagicSquare(notMagicSquare);
-            Console.WriteLine(isMagic2 ? "-> Це магічний квадрат!" : "-> Це НЕ магічний квадрат.");
+            Print(secondTestSquare, "Тестовий масив 2:");
+            bool resultTwo = IsMagicSquare(secondTestSquare);
+
+            Console.WriteLine(resultTwo ? "Це магічний квадрат!" : "Це НЕ магічний квадрат."
+            );
         }
-
         static bool IsMagicSquare(int[][] matrix)
         {
-            int n = matrix.Length;
-
+            int size = matrix.Length;
+            int n = size;
             for (int i = 0; i < n; i++)
             {
-                if (matrix[i].Length != n)
+                if (matrix[i].Length != size)
                     return false;
             }
 
@@ -233,33 +286,40 @@ namespace LabApp4
             for (int i = 1; i < n; i++)
             {
                 int rowSum = 0;
-                for (int j = 0; j < n; j++) rowSum += matrix[i][j];
+                for (int j = 0; j < n; j++)
+                {
+                    rowSum += matrix[i][j];
+                }
+
                 if (rowSum != targetSum) return false;
             }
 
             for (int j = 0; j < n; j++)
             {
                 int colSum = 0;
-                for (int i = 0; i < n; i++) colSum += matrix[i][j];
-                if (colSum != targetSum) return false;
+                for (int i = 0; i < n; i++)
+                    colSum += matrix[i][j];
+
+                if (colSum != targetSum)
+                    return false;
             }
 
-            int diag1Sum = 0;
-            int diag2Sum = 0;
+            int diagMain = 0;
+            int diagSec = 0;
+
             for (int i = 0; i < n; i++)
             {
-                diag1Sum += matrix[i][i];
-                diag2Sum += matrix[i][n - 1 - i];
+                diagMain += matrix[i][i];
+                diagSec += matrix[i][n - 1 - i];
             }
 
-            if (diag1Sum != targetSum || diag2Sum != targetSum)
+            if (diagMain != targetSum || diagSec != targetSum)
             {
                 return false;
             }
 
             return true;
         }
-
         static void Print(int[][] arr, string title)
         {
             Console.WriteLine(title);
@@ -269,6 +329,7 @@ namespace LabApp4
                 {
                     Console.Write(arr[i][j] + "\t");
                 }
+
                 Console.WriteLine();
             }
         }
