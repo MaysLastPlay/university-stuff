@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LabApp4
+﻿namespace LabApp4
 {
     internal class Tasks
     {
@@ -10,12 +6,10 @@ namespace LabApp4
 
         public static void Task1()
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.Write("Введіть m n k: ");
+            var cons = Console.ReadLine();
 
-            Console.Write("Введіть m n k (через пробіл, як завжди): ");
-            var rawInput = Console.ReadLine();
-
-            string[] parts = rawInput.Split(' ');
+            string[] parts = cons.Split(' ');
             int m = int.Parse(parts[0]);
             int n = int.Parse(parts[1]);
             int k = int.Parse(parts[2]);
@@ -33,9 +27,9 @@ namespace LabApp4
                     vectorX[i] = Math.Cos(j);
             }
 
-            double[] resultZ = MultiplyMatrixByVector(matrixA, vectorX, m, n);
+            double[] resultZ = Multiply(matrixA, vectorX, m, n);
 
-            Console.WriteLine("\nВектор Z (результат):");
+            Console.WriteLine("\nВектор Z:");
             foreach (var val in resultZ)
             {
                 Console.Write(val.ToString("F2") + "  ");
@@ -43,8 +37,7 @@ namespace LabApp4
 
             Console.WriteLine();
 
-            SaveToFile("output.txt", resultZ);
-            CheckIfSorted(resultZ);
+            CheckAndSave(resultZ);
         }
 
         static double[][] CreateMatrix(int rows, int cols)
@@ -59,15 +52,12 @@ namespace LabApp4
             {
                 case 1:
                     {
-                        Console.WriteLine("Вводьте рядки матриці (по одному рядку):");
+                        Console.WriteLine("Вводьте рядки матриці:");
 
                         for (int row = 0; row < rows; row++)
                         {
                             mat[row] = new double[cols];
-
-                            string input = Console.ReadLine();
-
-                            string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                            string[] parts = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                             if (parts.Length < cols)
                             {
@@ -124,11 +114,10 @@ namespace LabApp4
                     }
                     break;
             }
-
             return mat;
         }
 
-        static double[] MultiplyMatrixByVector(double[][] A, double[] X, int m, int n)
+        static double[] Multiply(double[][] A, double[] X, int m, int n)
         {
             double[] res = new double[m];
 
@@ -147,38 +136,34 @@ namespace LabApp4
         }
 
 
-        static void SaveToFile(string fileName, double[] data)
+        static void CheckAndSave(double[] val)
         {
-            using (StreamWriter writer = new StreamWriter(fileName))
+            string resultMessage = "Результат перевірки: " + "Впорядковано.";
+            int problemIndex = isSortedArray(val);
+            if (problemIndex > 0)
+            resultMessage = "Результат перевірки: " + $"Порушено на елементі {val[problemIndex]:F2} (індекс {problemIndex})";
+
+            using (StreamWriter writer = new StreamWriter("result.txt"))
             {
-                for (int i = 0; i < data.Length; i++)
-                {
-                    writer.Write(data[i].ToString("F2"));
-                    if (i != data.Length - 1)
-                    {
-                        writer.Write(" ");
-                    }
-                }
+                Console.WriteLine(resultMessage);
 
-                writer.WriteLine();
+                writer.WriteLine(resultMessage);
             }
-
-            Console.WriteLine($"{fileName}");
         }
 
-        static void CheckIfSorted(double[] arr)
+        private static int isSortedArray(double[] val)
         {
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < val.Length - 1; i++)
             {
-                if (arr[i] > arr[i + 1])
+                if (val[i] > val[i + 1])
                 {
-                    Console.WriteLine($"\nЄ проблема: {arr[i + 1]:F2}, на індексі {i + 1}");
-                    return;
+                    return i + 1;
                 }
             }
-
-            Console.WriteLine("\nВідсортовано");
+            return -1;
         }
+
+        // Створіть ступінчатий масив довільної розмірності(рядки можуть мати різну розмірність). Знайдіть найбільший елемент масиву. Перемістіть знайдений елемент у лівий верхній кут масиву шляхом перестановки рядків та стовпчиків.
         public static void Task2()
         {
             int rows = rnd.Next(3, 6);
@@ -196,9 +181,44 @@ namespace LabApp4
 
             Print(arr, "Початковий масив:");
 
-            int maxVal = int.MinValue;
-            int maxI = -1;
-            int maxJ = -1;
+            var (maxI, maxJ, maxVal) = getMaxPosition(arr);
+            if (maxI != -1 && maxJ != -1)
+            {
+                Console.WriteLine($"\nНайбільший елемент: {maxVal} (рядок {maxI}, стовпець {maxJ})");
+
+                SwapPlaces(arr, maxI, maxJ);
+
+                Print(arr, "\nМасив після перестановки рядків та стовпців:");
+            }
+            else
+            {
+                Console.WriteLine("\nМасив порожній, немає елементів для переміщення.");
+            }
+        }
+
+        private static void SwapPlaces(int[][] arr, int maxI, int maxJ)
+        {
+            int firstRow = 0;
+
+            int[] tempRow = arr[firstRow];
+            arr[firstRow] = arr[maxI];
+            arr[maxI] = tempRow;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int firstCol = 0;
+                if (arr[i] != null && arr[i].Length > maxJ)
+                {
+                    int tempVal = arr[i][firstCol];
+                    arr[i][firstCol] = arr[i][maxJ];
+                    arr[i][maxJ] = tempVal;
+                }
+            }
+        }
+
+        private static (int maxI, int maxJ, object maxVal) getMaxPosition(int[][] arr)
+        {
+            int maxVal = int.MinValue, maxI = -1, maxJ = -1;
 
             for (int i = 0; i < arr.Length; i++)
             {
@@ -213,34 +233,10 @@ namespace LabApp4
                 }
             }
 
-            int firstRow = 0;
-            if (maxI != -1 && maxJ != -1)
-            {
-                Console.WriteLine($"\nНайбільший елемент: {maxVal} (рядок {maxI}, стовпець {maxJ})");
-
-                int[] tempRow = arr[firstRow];
-                arr[firstRow] = arr[maxI];
-                arr[maxI] = tempRow;
-
-                for (int i = 0; i < arr.Length; i++)
-                {
-                    int firstCol = 0;
-                    if (arr[i] != null && arr[i].Length > maxJ)
-                    {
-                        int tempVal = arr[i][firstCol];
-                        arr[i][firstCol] = arr[i][maxJ];
-                        arr[i][maxJ] = tempVal;
-                    }
-                }
-
-                Print(arr, "\nМасив після перестановки рядків та стовпців:");
-            }
-            else
-            {
-                Console.WriteLine("\nМасив порожній, немає елементів для переміщення.");
-            }
+            return (maxI, maxJ, maxVal);
         }
 
+        // Створіть функцію, яка перевірить чи є переданий квадратний масив магічним квадратом.Магічний квадрат – квадратна таблиця, заповнена числами таким чином, що сума чисел у кожному рядку, стовпчику й на діагоналях однакова.
         public static void Task3()
         {
             int[][] firstTestSquare = new int[][]

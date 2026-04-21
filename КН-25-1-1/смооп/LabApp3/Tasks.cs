@@ -154,30 +154,35 @@ namespace LabApp3
 
         static void CheckAndSaveResult(double[] val)
         {
-            string resultMessage;
-            bool isSorted = true;
-            int problemIndex = -1;
+            string resultMessage = "Результат перевірки: " + "Впорядковано.";
+           int problemIndex = isSortedArray(val);
+           if (problemIndex > 0)
+                    
+                    resultMessage = "Результат перевірки: " + $"Порушено на елементі {val[problemIndex]:F2} (індекс {problemIndex})";
 
+
+      
+
+            using (StreamWriter writer = new StreamWriter("result.txt"))
+            {
+              
+
+                Console.WriteLine( resultMessage);
+               
+                writer.WriteLine( resultMessage);
+            }
+        }
+
+        private static int isSortedArray(double[] val)
+        {
             for (int i = 0; i < val.Length - 1; i++)
             {
                 if (val[i] > val[i + 1])
                 {
-                    isSorted = false;
-                    problemIndex = i + 1;
-                    break;
+                    return i + 1;
                 }
             }
-
-            using (StreamWriter writer = new StreamWriter("result.txt"))
-            {
-                if (isSorted)
-                    resultMessage = "Впорядковано.";
-                else
-                    resultMessage = $"Порушено на елементі {val[problemIndex]:F2} (індекс {problemIndex})";
-
-                Console.WriteLine("\nРезультат: " + resultMessage);
-                Console.WriteLine("Результат перевірки: " + resultMessage);
-            }
+            return -1;
         }
 
         public static void Task3()
@@ -311,10 +316,12 @@ namespace LabApp3
                         {
                             if (board[k + 1, j] == 0) {
                                 board[k + 1, j] = board[k, j];
-                                board[k, j] = 0; continue;
+                                board[k, j] = 0;
+                                continue;
                             }
                             if (board[k + 1, j] == board[k, j]) {
-                                board[k, j] = 0; score += (board[k + 1, j] *= 2);
+                                board[k, j] = 0;
+                                score += (board[k + 1, j] *= 2);
                             }
                             break;
                         }
