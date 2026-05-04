@@ -9,134 +9,95 @@ namespace LabApp5
     {
         public static void Task1()
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.UTF8;
 
-            Console.Write("Введіть текст для шифрування: ");
-            string originalText = Console.ReadLine();
+            Console.Write("Введіть текст: ");
+            string input = Console.ReadLine() ?? "";
+            Console.Write("Введіть зсув: ");
+            int shift = int.Parse(Console.ReadLine() ?? "0");
 
-            Console.Write("Введіть крок зсуву (наприклад, 3): ");
-            int shift = int.Parse(Console.ReadLine());
-
-            string encrypted = CaesarCipher(originalText, shift);
+            string encrypted = CaesarCipher(input, shift);
             string decrypted = CaesarCipher(encrypted, -shift);
 
-            Console.WriteLine($"\nОригінал: {originalText}");
             Console.WriteLine($"Зашифровано: {encrypted}");
             Console.WriteLine($"Розшифровано: {decrypted}");
-
-            using (StreamWriter sw = new StreamWriter("caesar_result.txt"))
-            {
-                sw.WriteLine($"Оригінал: {originalText}");
-                sw.WriteLine($"Зашифровано: {encrypted}");
-            }
-            Console.WriteLine("\n[Результат збережено у файл caesar_result.txt]");
         }
 
         static string CaesarCipher(string text, int shift)
         {
-            char[] buffer = text.ToCharArray();
-            for (int i = 0; i < buffer.Length; i++)
+            if (string.IsNullOrEmpty(text)) return text;
+
+            StringBuilder sb = new StringBuilder();
+            int alphabetSize = 33;
+
+            for (int i = 0; i < text.Length; i++)
             {
-                char letter = buffer[i];
-                if (char.IsLetter(letter))
+                string s = text.Substring(i, 1);
+ 
+                if (Regex.IsMatch(s, @"^[а-яА-ЯіІїЇєЄґҐ]$"))
                 {
-                    char offset = char.IsUpper(letter) ? 'А' : 'а';
+                    int symbolCode = Convert.ToInt32(Convert.ToChar(s));
+                    bool isUpper = s.Equals(s.ToUpper(), StringComparison.CurrentCulture);
+                    int offset = isUpper ? Convert.ToInt32(Convert.ToChar("А")) : Convert.ToInt32(Convert.ToChar("а"));
 
-                    int alphabetSize = 33;
-                    int code = (letter + shift - offset) % alphabetSize;
+                    int code = (symbolCode + shift - offset) % alphabetSize;
+                    if (code < 0) code += alphabetSize;
 
-                    if (code < 0)
-                    {
-                        code += alphabetSize;
-                    }
-
-                    buffer[i] = (char)(code + offset);
+                    sb.Append(Convert.ToChar(code + offset));
+                }
+                else
+                {
+                    sb.Append(s);
                 }
             }
-            return new string(buffer);
+            return sb.ToString();
         }
 
         public static void Task2()
         {
             string text = "";
-            Console.WriteLine("Оберіть джерело тексту:\n1 - Ввести з консолі\n2 - Використати тестовий рядок");
+            Console.WriteLine("Джерело:\n1 - Консоль\n2 - Тест");
 
-            switch (Console.ReadLine())
+            if (!int.TryParse(Console.ReadLine(), out int choice)) choice = 2;
+
+            switch (choice)
             {
-                case "1":
+                case 1:
                     Console.Write("Введіть текст: ");
-                    text = Console.ReadLine();
+                    text = Console.ReadLine() ?? "";
                     break;
-                case "2":
-                    text = "Завтра зранку заїде затишний автобус і око побачить море";
-                    Console.WriteLine($"\nТестовий текст: {text}");
+                case 2:
+                    text = "Зараз затишний автобус і око побачить море";
                     break;
                 default:
-                    Console.WriteLine("\nНевірний вибір. Програма використає тестовий текст за замовчуванням.");
-                    text = "Завтра зранку заїде затишний автобус і око побачить море";
-                    Console.WriteLine($"Тестовий текст: {text}");
+                    text = "Стандартний рядок";
                     break;
             }
 
-            int count = CountSameStartEndWords(text);
+            string[] words = text.Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries);
+            Console.WriteLine($"Кількість слів: {words.Length}");
 
-            Console.WriteLine($"\nКількість слів, що починаються і закінчуються однаково: {count}");
-        }
-
-        static int CountSameStartEndWords(string text)
-        {
-            char[] separators = new char[] { ' ', ',', '.', '!', '?', '-', '\n', '\r' };
-            string[] words = text.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-
-            int counter = 0;
-
-            for (int i = 0; i < words.Length; i++)
+            StringBuilder resultBuilder = new StringBuilder();
+            foreach (string word in words)
             {
-                string word = words[i];
-                if (word.Length > 1)
+                if (word.Length >= 1)
                 {
-                    char firstLetter = char.ToLower(word[0]);
-                    char lastLetter = char.ToLower(word[word.Length - 1]);
-
-                    if (firstLetter == lastLetter)
+                    string first = word.Substring(0, 1);
+                    if (word.EndsWith(first, StringComparison.OrdinalIgnoreCase))
                     {
-                        counter++;
-                        Console.WriteLine($"- Знайдено слово: {word}");
+                        resultBuilder.Append(word).Append(" ");
                     }
                 }
             }
-            return counter;
-        }
 
-        public static void Task3()
-        {
-            Console.Write("Введіть дату: ");
-            string dateInput = Console.ReadLine();
+            string resultText = resultBuilder.ToString().Trim();
+            Console.WriteLine($"Слова з однаковим початком і кінцем: {resultText}");
 
-            string datePattern = @"^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/\d{4}$";
-
-            if (Regex.IsMatch(dateInput, datePattern))
+            using (StreamWriter sw = new StreamWriter("result.txt"))
             {
-                Console.WriteLine("Формат дати ПРАВИЛЬНИЙ.");
-            }
-            else
-            {
-                Console.WriteLine("Формат дати НЕПРАВИЛЬНИЙ. Використовуйте DD/MM/YYYY.");
-            }
-
-            Console.WriteLine("\n--- Перевірка надійності пароля ---");
-            Console.WriteLine("(Пароль має містити мін. 8 символів, хоча б 1 велику літеру, 1 малу літеру та 1 цифру)");
-            Console.Write("Введіть пароль: ");
-            string passInput = Console.ReadLine();
-
-            string passPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$";
-
-            if (Regex.IsMatch(passInput, passPattern))
-            {
-                Console.WriteLine("Пароль НАДІЙНИЙ.");
-            }
-            else
-            {
-                Console.WriteLine("Пароль СЛАБКИЙ або не відповідає вимогам.");
+                sw.WriteLine("Оригінал: " + text);
+                sw.WriteLine("Результат: " + resultText);
             }
         }
     }
