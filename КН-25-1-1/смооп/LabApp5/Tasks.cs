@@ -9,9 +9,6 @@ namespace LabApp5
     {
         public static void Task1()
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.InputEncoding = Encoding.UTF8;
-
             Console.Write("Введіть текст: ");
             string input = Console.ReadLine() ?? "";
             Console.Write("Введіть зсув: ");
