@@ -9,6 +9,7 @@ namespace LabApp6.enums
         Electronics,
         Clothing,
         Books,
-        HomeAndGarden
+        HomeAndGarden,
+        Groceries
     }
 }

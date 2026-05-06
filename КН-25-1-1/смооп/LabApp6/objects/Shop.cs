@@ -62,7 +62,11 @@ namespace LabApp6.objects
             this.products = newProducts;
         }
 
-        public string ToShortString() { return $"{Name}, Opening Date: {OpeningDate}, Category: {Category}"; }
+        public string ToShortString(string name, ProductCategory category)
+        {
+            return $"{name}, Category: {category}";
+        }
+
         public override string ToString()
         {
             return $"Name: {Name},\n Opening Date: {OpeningDate},\n Products: {string.Join(", ", Products)},\n Category: {Category},\n Total Cost: {CalculateTotalCost()}";
