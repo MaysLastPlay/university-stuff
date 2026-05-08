@@ -25,7 +25,8 @@ namespace LabApp7_1.numbers
         }
 
         public string ToShortString() => $"Num1: {this.Num1}, Num2: {this.Num2}";
-        public override string ToString() => $"Num1: {this.Num1}, Num2: {this.Num2}, Sum: {this.Sum()}, Multiplied: {this.Multiply()}, HashCode: {this.GetHashCode()}, Equals: {this.Equals(this)}";
+        public override string ToString() => $"Num1: {this.Num1}, Num2: {this.Num2}, Sum: {this.Sum()}, Multiplied: {this.Multiply()}";
+        public string ExtraInfo() => $" HashCode: {this.GetHashCode()}, Equals: {this.Equals(this)}";
 
         public override int GetHashCode()
         {

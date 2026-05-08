@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\LabApp7_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\LabApp7_2.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\LabApp7_2.AssemblyInfo.cs
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\LabApp7_2.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\LabApp7\Task2\bin\Debug\net10.0\LabApp7_2.exe
+E:\VS University Code\смооп\LabApp7\Task2\bin\Debug\net10.0\LabApp7_2.deps.json
+E:\VS University Code\смооп\LabApp7\Task2\bin\Debug\net10.0\LabApp7_2.runtimeconfig.json
+E:\VS University Code\смооп\LabApp7\Task2\bin\Debug\net10.0\LabApp7_2.dll
+E:\VS University Code\смооп\LabApp7\Task2\bin\Debug\net10.0\LabApp7_2.pdb
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\LabApp7_2.dll
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\refint\LabApp7_2.dll
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\LabApp7_2.pdb
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\LabApp7_2.genruntimeconfig.cache
+E:\VS University Code\смооп\LabApp7\Task2\obj\Debug\net10.0\ref\LabApp7_2.dll
