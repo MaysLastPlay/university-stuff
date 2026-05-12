@@ -1,6 +1,9 @@
 ﻿using LabApp7_2;
 using LabApp7_2.enums;
+using LabApp7_2.zoo.animals;
+using LabApp7_2.zoo;
 
-Animal animal = new Animal("Lion", 190.5m, FoodType.Meat, true);
-Console.WriteLine(animal);
-Console.WriteLine(animal.ExtraInfo());
+Zoo zoo = new Zoo();
+zoo.GetAnimalsInfo();
+
+Console.WriteLine(zoo);

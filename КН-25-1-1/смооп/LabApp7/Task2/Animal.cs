@@ -9,20 +9,24 @@ namespace LabApp7_2
     {
         private string name;
         private decimal weight;
+        private AnimalType type;
         private FoodType foodType;
         private double dailyFoodIntake;
+        private double monthlyFoodIntake;
         private bool canLiveWithOtherAnimals;
 
-        public Animal(string name, decimal weight, FoodType foodType, bool canLiveWithOtherAnimals)
+        public Animal(string name, decimal weight, AnimalType type, FoodType foodType, bool canLiveWithOtherAnimals)
         {
             this.name = name;
             this.weight = weight;
+            this.type = type;
             this.foodType = foodType;
+            this.monthlyFoodIntake = CalculateMonthlyFoodIntake();
             this.dailyFoodIntake = CalculateDailyFoodIntake((double)weight, GetFoodTypeMultiplier(foodType));
             this.canLiveWithOtherAnimals = canLiveWithOtherAnimals;
         }
 
-        private double GetFoodTypeMultiplier(FoodType foodType)
+        public double GetFoodTypeMultiplier(FoodType foodType)
         {
             switch (foodType)
             {
@@ -41,15 +45,26 @@ namespace LabApp7_2
             }
         }
 
-        public  double CalculateDailyFoodIntake(double weight, double foodTypeMultiplier)
+        public double CalculateDailyFoodIntake(double weight, double foodTypeMultiplier)
         {
             return weight * foodTypeMultiplier;
         }
 
-        public string Name
+        public double CalculateMonthlyFoodIntake()
+        { 
+            return dailyFoodIntake * 31;
+        }
+
+        public virtual string Name
         {
             get { return name; }
             set { name = value; }
+        }
+
+        public AnimalType Type
+        {
+            get { return type; }
+            set { type = value; }
         }
 
         public FoodType FoodType
@@ -61,8 +76,11 @@ namespace LabApp7_2
         public virtual decimal Weight
         {
             get { return weight; }
-            set { if (value >= 0) weight = value;
-            else throw new ArgumentException("Weight cannot be negative"); }
+            set
+            {
+                if (value >= 0) weight = value;
+                else throw new ArgumentException("Weight cannot be negative");
+            }
         }
 
         public virtual bool CanLiveWithOtherAnimals
@@ -71,18 +89,20 @@ namespace LabApp7_2
             set { canLiveWithOtherAnimals = value; }
         }
 
-        public override string ToString() => $"Name: {name}, Weight: {weight}, Food Type: {foodType}, Daily Food Intake: {dailyFoodIntake}, Can Live with Other Animals: {canLiveWithOtherAnimals}";
+        public override string ToString() => $"Name: {name}, Weight: {weight}, Type: {type}, Food Type: {foodType}, Daily Food Intake: {dailyFoodIntake}, Monthly Food Intake: {monthlyFoodIntake}, Can Live with Other Animals: {canLiveWithOtherAnimals}";
 
-        public string ExtraInfo() => $"HashCode: {GetHashCode()}, Equals: {Equals(this)}";
+        public virtual string ExtraInfo() => $"HashCode: {GetHashCode()}, Equals: {Equals(this)}";
 
         public override int GetHashCode()
         {
-                int hash = 17;
-                hash = hash * 23 + (name?.GetHashCode() ?? 0);
-                hash = hash * 23 + weight.GetHashCode();
-                hash = hash * 23 + dailyFoodIntake.GetHashCode();
-                hash = hash * 23 + canLiveWithOtherAnimals.GetHashCode();
-                return hash;
+            int hash = 17;
+            hash = hash * 23 + (name?.GetHashCode() ?? 0);
+            hash = hash * 23 + weight.GetHashCode();
+            hash = hash * 23 + foodType.GetHashCode();
+            hash = hash * 23 + monthlyFoodIntake.GetHashCode();
+            hash = hash * 23 + dailyFoodIntake.GetHashCode();
+            hash = hash * 23 + canLiveWithOtherAnimals.GetHashCode();
+            return hash;
         }
 
         public override bool Equals(object? obj)
@@ -93,6 +113,7 @@ namespace LabApp7_2
                        weight == other.weight &&
                        foodType == other.foodType &&
                        dailyFoodIntake == other.dailyFoodIntake &&
+                       monthlyFoodIntake == other.monthlyFoodIntake &&
                        canLiveWithOtherAnimals == other.canLiveWithOtherAnimals;
             }
             return false;
