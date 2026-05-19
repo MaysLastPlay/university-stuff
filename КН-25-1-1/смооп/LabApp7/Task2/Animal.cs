@@ -21,12 +21,24 @@ namespace LabApp7_2
             this.weight = weight;
             this.type = type;
             this.foodType = foodType;
-            this.monthlyFoodIntake = CalculateMonthlyFoodIntake();
-            this.dailyFoodIntake = CalculateDailyFoodIntake((double)weight, GetFoodTypeMultiplier(foodType));
+            this.DailyFoodIntake = dailyFoodIntake;
+            this.MonthlyFoodIntake = monthlyFoodIntake;
             this.canLiveWithOtherAnimals = canLiveWithOtherAnimals;
         }
 
-        public double GetFoodTypeMultiplier(FoodType foodType)
+        public virtual double DailyFoodIntake
+        {
+            get {  return dailyFoodIntake; }
+            set { dailyFoodIntake = CalculateDailyFoodIntake((double)weight, GetFoodTypeMultiplier(foodType)); }
+        }
+
+        public virtual double MonthlyFoodIntake
+        {
+            get { return monthlyFoodIntake; }
+            set { monthlyFoodIntake = CalculateMonthlyFoodIntake(); }
+        }
+
+        public virtual double GetFoodTypeMultiplier(FoodType foodType)
         {
             switch (foodType)
             {
@@ -45,12 +57,12 @@ namespace LabApp7_2
             }
         }
 
-        public double CalculateDailyFoodIntake(double weight, double foodTypeMultiplier)
+        public virtual double CalculateDailyFoodIntake(double weight, double foodTypeMultiplier)
         {
             return weight * foodTypeMultiplier;
         }
 
-        public double CalculateMonthlyFoodIntake()
+        public virtual double CalculateMonthlyFoodIntake()
         { 
             return dailyFoodIntake * 31;
         }
