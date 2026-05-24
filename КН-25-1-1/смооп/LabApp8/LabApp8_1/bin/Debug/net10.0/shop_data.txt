@@ -1,5 +1,5 @@
 Copy of Tech Store
 01.01.2000 0:00:00
 Electronics
-Sofa|373|Furniture|Corner|1990
-Sofa|417|Tech|Hub|1996
+Laptop|175|Tech|Store|1987
+Sofa|522|Foodie|World|1966
