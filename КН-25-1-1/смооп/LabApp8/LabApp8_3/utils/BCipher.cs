@@ -7,8 +7,6 @@ namespace LabApp8_3.utils
 {
     internal class BCipher : ICipher, IComparable<BCipher>
     {
-        private const int key = 1;
-        private const int alphabet = 26;
         private int length;
 
         public string Text { get; set; }
@@ -28,27 +26,19 @@ namespace LabApp8_3.utils
             char[] characters = input.ToCharArray();
             for (int i = 0; i < characters.Length; i++)
             {
-                if (!char.IsLetter(characters[i])) continue;
-                char offset = char.IsUpper(characters[i]) ? 'A' : 'a';
-                characters[i] = (char)((characters[i] - offset + key) % 26 + offset);
+                char chars = characters[i];
+                if (char.IsLetter(chars))
+                {
+                    char offset = char.IsUpper(chars) ? 'A' : 'a';
+                    characters[i] = (char)(offset + ('Z' - char.ToUpper(chars)));
+                    if (char.IsLower(chars)) characters[i] = char.ToLower(characters[i]);
+                }
+
             }
             return new string(characters);
         }
 
-        public string Decrypt(string input)
-        {
-            char[] characters = input.ToCharArray();
-
-            for (int i = 0; i < characters.Length; i++)
-            {
-                if (!char.IsLetter(characters[i])) continue;
-                char offset = char.IsUpper(characters[i]) ? 'A' : 'a';
-
-                characters[i] = (char)((characters[i] - offset - key + alphabet) % alphabet + offset);
-            }
-
-            return new string(characters);
-        }
+        public string Decrypt(string input) => Encrypt(input);
 
         public int CompareTo(BCipher other)
         {

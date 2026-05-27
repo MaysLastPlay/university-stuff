@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LabApp8_1.lb6
 {
-    internal class Person : IComparable, ICloneable
+    internal class Person : IComparable<Person>, ICloneable
     {
         private string name;
         private string surname;
@@ -54,14 +54,10 @@ namespace LabApp8_1.lb6
             return $"Name: {Name}, Surname: {Surname}, Birth Year: {BirthYear}, Age: {GetAge()}";
         }
 
-        public int CompareTo(object obj)
+        public int CompareTo(Person other)
         {
-            if (obj == null) return 1;
-            Person otherPerson = obj as Person;
-            if (otherPerson != null)
-                return this.GetAge().CompareTo(otherPerson.GetAge());
-            else
-                throw new ArgumentException("Object is not a Person");
+            if (other == null) return 1;
+            return this.GetAge().CompareTo(other.GetAge());
         }
 
         public object Clone()
