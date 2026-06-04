@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\methods\\suitcasemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\methods\\suitcasemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\testing\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\testing\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\suitcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\suitcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\item\\itempriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\item\\itempriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\item\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\item\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\methods\\itemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\methods\\itemcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\item\\itemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\item\\itemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\events\\suitcaseeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\events\\suitcaseeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_1\\testing\\actions\\numbersaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|solutionrelative:labapp10_1\\testing\\actions\\numbersaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_1\\things\\numbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|solutionrelative:labapp10_1\\things\\numbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_1\\testing\\actions\\geometryaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|solutionrelative:labapp10_1\\testing\\actions\\geometryaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_1\\testing\\actions\\dateaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7054F92C-0871-5304-4EC6-F29428E62184}|LabApp10_1\\LabApp10_1.csproj|solutionrelative:labapp10_1\\testing\\actions\\dateaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestClass.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\testing\\TestClass.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\testing\\TestClass.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\testing\\TestClass.cs",
+              "RelativeToolTip": "LabApp10_2\\testing\\TestClass.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T08:23:01.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\item\\Item.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\item\\Item.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\item\\Item.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\item\\Item.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T08:25:44.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Suitcase.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\Suitcase.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\Suitcase.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\Suitcase.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\Suitcase.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:55:32.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemList.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\item\\ItemList.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\item\\ItemList.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\item\\ItemList.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\item\\ItemList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T13:54:31.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\Program.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\Program.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\Program.cs",
+              "RelativeToolTip": "LabApp10_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T14:40:46.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemPriority.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\item\\ItemPriority.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\item\\ItemPriority.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\item\\ItemPriority.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\item\\ItemPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T13:33:56.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuitcaseMethods.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T15:21:22.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemCollector.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\methods\\ItemCollector.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\methods\\ItemCollector.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\methods\\ItemCollector.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\methods\\ItemCollector.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T14:02:18.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SuitcaseEventHandler.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\events\\SuitcaseEventHandler.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\events\\SuitcaseEventHandler.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\events\\SuitcaseEventHandler.cs",
+              "RelativeToolTip": "LabApp10_2\\events\\SuitcaseEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:25:26.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NumbersAction.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\testing\\actions\\NumbersAction.cs",
+              "RelativeDocumentMoniker": "LabApp10_1\\testing\\actions\\NumbersAction.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\testing\\actions\\NumbersAction.cs",
+              "RelativeToolTip": "LabApp10_1\\testing\\actions\\NumbersAction.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T09:02:33.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Numbers.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\things\\Numbers.cs",
+              "RelativeDocumentMoniker": "LabApp10_1\\things\\Numbers.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\things\\Numbers.cs",
+              "RelativeToolTip": "LabApp10_1\\things\\Numbers.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T08:55:53.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GeometryAction.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\testing\\actions\\GeometryAction.cs",
+              "RelativeDocumentMoniker": "LabApp10_1\\testing\\actions\\GeometryAction.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\testing\\actions\\GeometryAction.cs",
+              "RelativeToolTip": "LabApp10_1\\testing\\actions\\GeometryAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T09:03:06.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DateAction.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\testing\\actions\\DateAction.cs",
+              "RelativeDocumentMoniker": "LabApp10_1\\testing\\actions\\DateAction.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_1\\testing\\actions\\DateAction.cs",
+              "RelativeToolTip": "LabApp10_1\\testing\\actions\\DateAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T09:03:19.322Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

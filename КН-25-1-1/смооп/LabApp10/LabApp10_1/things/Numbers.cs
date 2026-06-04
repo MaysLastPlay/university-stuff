@@ -4,9 +4,9 @@ using System.Text;
 
 namespace LabApp10_1.things
 {
-    internal class Numbers
+    internal static class Numbers
     {
-        public Predicate<int> PrimeNum => curNumber =>
+        public static Predicate<int> PrimeNum => curNumber =>
         {
             if (curNumber < 2) return false;
             for (int i = 2; i <= Math.Sqrt(curNumber); i++)
@@ -15,16 +15,17 @@ namespace LabApp10_1.things
             }
             return true;
         };
-        public Predicate<int> FibonacciNum => curNumber =>
+        public static Predicate<int> FibonacciNum => curNumber =>
         {
-            int a = 0, b = 1;
-            while (b < curNumber)
-            {
-                int temp = a;
-                a = b;
-                b = temp + b;
-            }
-            return b == curNumber || a == curNumber;
+            if (curNumber < 0) return false;
+
+            int a = 5 * curNumber * curNumber + 4;
+            int b = 5 * curNumber * curNumber - 4;
+
+            int numA = (int)Math.Sqrt(a);
+            int numB = (int)Math.Sqrt(b);
+
+            return (numA * numA == a) || (numB * numB == b);
         };
     }
 }

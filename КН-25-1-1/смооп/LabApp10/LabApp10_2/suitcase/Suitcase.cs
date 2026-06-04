@@ -1,24 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
+using LabApp10_2.events;
+using LabApp10_2.suitcase.item;
+using LabApp10_2.suitcase.methods;
 
 namespace LabApp10_2.suitcase
 {
     internal class Suitcase
     {
+        public SuitcaseEventHandler suitcaseEventHandler = new SuitcaseEventHandler();
         public string color { get; set; }
         public string developerName { get; set; }
         public double capacity { get; set; }
         public Item?[] items { get; set; }
-        public int maxitems { get; set; }
 
-        public Suitcase(string color, string manufacturer, double capacity, int itemCount)
+        public Suitcase(string color, string manufacturer, double capacity)
         {
             this.color = color;
             this.developerName = manufacturer;
             this.capacity = capacity;
-            this.maxitems = itemCount;
-            items = new Item?[itemCount];
+            this.items = new Item?[SuitcaseMethods.maxItems];
         }
 
         public Suitcase()
@@ -26,49 +29,16 @@ namespace LabApp10_2.suitcase
             color = "Unknown";
             developerName = "Unknown";
             capacity = 0.0;
-            maxitems = 0;
-            items = new Item?[maxitems];
+            items = new Item?[SuitcaseMethods.maxItems];
         }
 
         public void AddItem(Item item)
         {
-            for (int i = 0; i < maxitems; i++)
-            {
-                if (items[i] == null)
-                {
-                    items[i] = item;
-                    return;
-                }
-            }
-            Console.WriteLine("Suitcase is full. Cannot add more items.");
+            new SuitcaseMethods().AddItem(item, items);
         }
 
-        public void RemoveItem(Item item)
-        {
-            for (int i = 0; i < maxitems; i++)
-            {
-                if (items[i] == item)
-                {
-                    items[i] = null;
-                    return;
-                }
-            }
-            Console.WriteLine($"Removed Item: {item.Name}.");
-        }
+        public string ItemsList => SuitcaseMethods.ItemsList(items);
 
-        public string ItemsList(Item?[] items)
-        {
-            StringBuilder sb = new StringBuilder();
-            foreach (var item in items)
-            {
-                if (item != null)
-                {
-                    sb.AppendLine(item.ToString());
-                }
-            }
-            return sb.ToString();
-        }
-
-        public override string ToString() => $"Suitcase: Color: {color}, Developer: {developerName}, Capacity: {capacity} kg, Items:\n{ItemsList(items)}";
+        public override string ToString() => $"Suitcase: Color: {color}, Developer: {developerName}, Capacity: {capacity} kg, \nItems:\n{SuitcaseMethods.ItemsList(items)}";
     }
 }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace LabApp10_1.things
 {
-    internal class GeometryThing
+    internal static class GeometryThing
     {
-        public Func<double, double, double> TriangleArea => ( double a, double b ) => (Math.Sqrt(3) / 4) * a * b;
-        public Func<double, double, double> RectangleArea => (double a, double b) => a * b;
+        public static Func<double, double, double> TriangleArea => (double a, double b) => (Math.Sqrt(3) / 4) * a * b;
+        public static Func<double, double, double> RectangleArea => (double a, double b) => a * b;
     }
 }

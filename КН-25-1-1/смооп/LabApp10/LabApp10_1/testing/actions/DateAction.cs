@@ -9,11 +9,10 @@ namespace LabApp10_1.testing.actions
     {
         public static void DoDateTest()
         {
-            CurrentDate dateTest = new CurrentDate();
             Console.WriteLine("Date Stuff:");
-            dateTest.curDate();
-            dateTest.curDay();
-            dateTest.curTime();
+            CurrentDate.curDate();
+            CurrentDate.curDay();
+            CurrentDate.curTime();
             Console.ReadKey();
         }
     }

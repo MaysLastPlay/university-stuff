@@ -10,11 +10,10 @@ namespace LabApp10_1.testing.actions
     {
         public static void DoGeometryTest()
         {
-            GeometryThing geoTest = new GeometryThing();
             Console.WriteLine("Geometry Stuff:");
             double x = 5.9, y = 10.2;
-            Console.WriteLine($"Triangle area with sides {x} and {y}: {geoTest.TriangleArea(x, y)}");
-            Console.WriteLine($"Rectangle area with sides {x} and {y}: {geoTest.RectangleArea(x, y)}");
+            Console.WriteLine($"Triangle area with sides {x} and {y}: {GeometryThing.TriangleArea(x, y)}");
+            Console.WriteLine($"Rectangle area with sides {x} and {y}: {GeometryThing.RectangleArea(x, y)}");
             Console.ReadKey();
         }
     }
