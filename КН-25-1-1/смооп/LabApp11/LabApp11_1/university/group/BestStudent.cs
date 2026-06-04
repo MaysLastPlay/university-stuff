@@ -6,9 +6,10 @@ using LabApp11_1.interfaces;
 
 namespace LabApp11_1.university.group
 {
+    // Принцип 3 SOLID: Liskov Substitution Principle (Принцип підстановки Барбари Лісков)
     internal class BestStudent : ISelector
     {
-        public Student Select(Student[] _students)
+        public Student Select(Student[] _students) // Об'єкт, який реалізує інтерфейс ISelector, повинен бути замінним на будь-який інший об'єкт, який реалізує цей інтерфейс, без порушення коректності програми.
         {
                 Student? bestStudent = null;
 

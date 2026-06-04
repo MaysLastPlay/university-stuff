@@ -4,6 +4,7 @@ using System.Text;
 
 namespace LabApp11_1.university.student
 {
+    //  Принцип 1 SOLID: Single Responsibility Principle (Принцип єдиної відповідальності)
     internal class StudentRecord
     {
         private string[] subjects = new string[7];
