@@ -7,7 +7,7 @@ using Module3.zoo.methods;
 
 namespace Module3.zoo
 {
-    internal class Aviaries
+    internal class Aviaries : IAviary  
     {
         public const int MaxAnimals = 3;
         public int countedAnimals { get; private set; } = 0;
