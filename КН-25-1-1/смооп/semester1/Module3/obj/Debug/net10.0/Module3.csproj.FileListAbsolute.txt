@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\Module3\bin\Debug\net10.0\Module3.exe
+E:\VS University Code\смооп\Module3\bin\Debug\net10.0\Module3.deps.json
+E:\VS University Code\смооп\Module3\bin\Debug\net10.0\Module3.runtimeconfig.json
+E:\VS University Code\смооп\Module3\bin\Debug\net10.0\Module3.dll
+E:\VS University Code\смооп\Module3\bin\Debug\net10.0\Module3.pdb
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\Module3.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\Module3.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\Module3.AssemblyInfo.cs
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\Module3.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\Module3.dll
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\refint\Module3.dll
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\Module3.pdb
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\Module3.genruntimeconfig.cache
+E:\VS University Code\смооп\Module3\obj\Debug\net10.0\ref\Module3.dll

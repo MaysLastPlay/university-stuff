@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_1\\lb6\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|solutionrelative:labapp8_1\\lb6\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_1\\lb6\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|solutionrelative:labapp8_1\\lb6\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_1\\lb6\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|solutionrelative:labapp8_1\\lb6\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_2\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|solutionrelative:labapp8_2\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|solutionrelative:labapp8_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_2\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|solutionrelative:labapp8_2\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_2\\interfaces\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CFEFCC-7272-4C58-BB64-F48AFC60DFD3}|LabApp8_2\\LabApp8_2.csproj|solutionrelative:labapp8_2\\interfaces\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_1\\interfaces\\icontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|solutionrelative:labapp8_1\\interfaces\\icontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A05B8BD3-CECF-44B4-9BD9-92E9A6A5A5EB}|LabApp8_3\\LabApp8_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_3\\interfaces\\icipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05B8BD3-CECF-44B4-9BD9-92E9A6A5A5EB}|LabApp8_3\\LabApp8_3.csproj|solutionrelative:labapp8_3\\interfaces\\icipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp8\\labapp8_1\\interfaces\\ifilecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080ED6EE-C882-D415-B709-9F5A55E622A9}|LabApp8_1\\LabApp8_1.csproj|solutionrelative:labapp8_1\\interfaces\\ifilecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\Register.cs",
+              "RelativeDocumentMoniker": "LabApp8_2\\Register.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\Register.cs",
+              "RelativeToolTip": "LabApp8_2\\Register.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:31:58.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Device.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\Device.cs",
+              "RelativeDocumentMoniker": "LabApp8_2\\Device.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\Device.cs",
+              "RelativeToolTip": "LabApp8_2\\Device.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:31:49.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\lb6\\Shop.cs",
+              "RelativeDocumentMoniker": "LabApp8_1\\lb6\\Shop.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\lb6\\Shop.cs",
+              "RelativeToolTip": "LabApp8_1\\lb6\\Shop.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwLUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:31:41.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\lb6\\Person.cs",
+              "RelativeDocumentMoniker": "LabApp8_1\\lb6\\Person.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\lb6\\Person.cs",
+              "RelativeToolTip": "LabApp8_1\\lb6\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:29:13.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDevice.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\interfaces\\IDevice.cs",
+              "RelativeDocumentMoniker": "LabApp8_2\\interfaces\\IDevice.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\interfaces\\IDevice.cs",
+              "RelativeToolTip": "LabApp8_2\\interfaces\\IDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:23:48.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICipher.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_3\\interfaces\\ICipher.cs",
+              "RelativeDocumentMoniker": "LabApp8_3\\interfaces\\ICipher.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_3\\interfaces\\ICipher.cs",
+              "RelativeToolTip": "LabApp8_3\\interfaces\\ICipher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:23:44.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFileContainer.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\interfaces\\IFileContainer.cs",
+              "RelativeDocumentMoniker": "LabApp8_1\\interfaces\\IFileContainer.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\interfaces\\IFileContainer.cs",
+              "RelativeToolTip": "LabApp8_1\\interfaces\\IFileContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:23:37.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\lb6\\Product.cs",
+              "RelativeDocumentMoniker": "LabApp8_1\\lb6\\Product.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\lb6\\Product.cs",
+              "RelativeToolTip": "LabApp8_1\\lb6\\Product.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:20:34.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\Program.cs",
+              "RelativeDocumentMoniker": "LabApp8_2\\Program.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_2\\Program.cs",
+              "RelativeToolTip": "LabApp8_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:31:54.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IContainer.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\interfaces\\IContainer.cs",
+              "RelativeDocumentMoniker": "LabApp8_1\\interfaces\\IContainer.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp8\\LabApp8_1\\interfaces\\IContainer.cs",
+              "RelativeToolTip": "LabApp8_1\\interfaces\\IContainer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:22:56.25Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

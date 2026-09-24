@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\bin\Debug\net10.0\Idkwhatisthatttttt.exe
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\bin\Debug\net10.0\Idkwhatisthatttttt.deps.json
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\bin\Debug\net10.0\Idkwhatisthatttttt.runtimeconfig.json
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\bin\Debug\net10.0\Idkwhatisthatttttt.dll
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\bin\Debug\net10.0\Idkwhatisthatttttt.pdb
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\Idkwhatisthatttttt.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\Idkwhatisthatttttt.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\Idkwhatisthatttttt.AssemblyInfo.cs
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\Idkwhatisthatttttt.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\Idkwhatisthatttttt.dll
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\refint\Idkwhatisthatttttt.dll
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\Idkwhatisthatttttt.pdb
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\Idkwhatisthatttttt.genruntimeconfig.cache
+E:\VS University Code\смооп\Idkwhatisthatttttt\Idkwhatisthatttttt\obj\Debug\net10.0\ref\Idkwhatisthatttttt.dll

@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\LabApp7\LabApp7\bin\Debug\net10.0\LabApp7_1.exe
+E:\VS University Code\смооп\LabApp7\LabApp7\bin\Debug\net10.0\LabApp7_1.deps.json
+E:\VS University Code\смооп\LabApp7\LabApp7\bin\Debug\net10.0\LabApp7_1.runtimeconfig.json
+E:\VS University Code\смооп\LabApp7\LabApp7\bin\Debug\net10.0\LabApp7_1.dll
+E:\VS University Code\смооп\LabApp7\LabApp7\bin\Debug\net10.0\LabApp7_1.pdb
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\LabApp7_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\LabApp7_1.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\LabApp7_1.AssemblyInfo.cs
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\LabApp7_1.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\LabApp7_1.dll
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\refint\LabApp7_1.dll
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\LabApp7_1.pdb
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\LabApp7_1.genruntimeconfig.cache
+E:\VS University Code\смооп\LabApp7\LabApp7\obj\Debug\net10.0\ref\LabApp7_1.dll

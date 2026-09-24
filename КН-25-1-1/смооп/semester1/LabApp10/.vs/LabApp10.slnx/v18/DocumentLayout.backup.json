@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\suitcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\suitcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp10\\labapp10_2\\suitcase\\methods\\suitcasemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6DAF4-794B-4D48-96C6-244DFAA1D02E}|LabApp10_2\\LabApp10_2.csproj|solutionrelative:labapp10_2\\suitcase\\methods\\suitcasemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Suitcase.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\Suitcase.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\Suitcase.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\Suitcase.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\Suitcase.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T10:27:47.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuitcaseMethods.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "RelativeDocumentMoniker": "LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp10\\LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "RelativeToolTip": "LabApp10_2\\suitcase\\methods\\SuitcaseMethods.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T08:26:16.89Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F1309C-E1CF-C8C8-687E-16A9B824FE05}|LabApp9_2\\LabApp9_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_2\\utils\\rgbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F1309C-E1CF-C8C8-687E-16A9B824FE05}|LabApp9_2\\LabApp9_2.csproj|solutionrelative:labapp9_2\\utils\\rgbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9F1309C-E1CF-C8C8-687E-16A9B824FE05}|LabApp9_2\\LabApp9_2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9F1309C-E1CF-C8C8-687E-16A9B824FE05}|LabApp9_2\\LabApp9_2.csproj|solutionrelative:labapp9_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\store\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\store\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\store\\methods\\storemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\store\\methods\\storemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\store\\item\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\store\\item\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\interfaces\\istore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\interfaces\\istore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\enums\\storeitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\enums\\storeitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\enums\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\enums\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\labapp9\\labapp9_3\\testing\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA356F3-1E2A-DA1D-5F84-86E25A699670}|LabApp9_3\\LabApp9_3.csproj|solutionrelative:labapp9_3\\testing\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RGBUtil.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_2\\utils\\RGBUtil.cs",
+              "RelativeDocumentMoniker": "LabApp9_2\\utils\\RGBUtil.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_2\\utils\\RGBUtil.cs",
+              "RelativeToolTip": "LabApp9_2\\utils\\RGBUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:33:56.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_2\\Program.cs",
+              "RelativeDocumentMoniker": "LabApp9_2\\Program.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_2\\Program.cs",
+              "RelativeToolTip": "LabApp9_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:33:53.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\enums\\Currency.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\enums\\Currency.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\enums\\Currency.cs",
+              "RelativeToolTip": "LabApp9_3\\enums\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T08:24:26.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\store\\item\\Item.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\store\\item\\Item.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\store\\item\\Item.cs",
+              "RelativeToolTip": "LabApp9_3\\store\\item\\Item.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T07:27:07.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestClass.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\testing\\TestClass.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\testing\\TestClass.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\testing\\TestClass.cs",
+              "RelativeToolTip": "LabApp9_3\\testing\\TestClass.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T16:01:44.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Store.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\store\\Store.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\store\\Store.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\store\\Store.cs",
+              "RelativeToolTip": "LabApp9_3\\store\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:43:01.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoreItems.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\enums\\StoreItems.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\enums\\StoreItems.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\enums\\StoreItems.cs",
+              "RelativeToolTip": "LabApp9_3\\enums\\StoreItems.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:42:38.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStore.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\interfaces\\IStore.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\interfaces\\IStore.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\interfaces\\IStore.cs",
+              "RelativeToolTip": "LabApp9_3\\interfaces\\IStore.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:38:57.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoreMethods.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\store\\methods\\StoreMethods.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\store\\methods\\StoreMethods.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\store\\methods\\StoreMethods.cs",
+              "RelativeToolTip": "LabApp9_3\\store\\methods\\StoreMethods.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T07:27:46.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\Program.cs",
+              "RelativeDocumentMoniker": "LabApp9_3\\Program.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\LabApp9\\LabApp9_3\\Program.cs",
+              "RelativeToolTip": "LabApp9_3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T16:04:36.3Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

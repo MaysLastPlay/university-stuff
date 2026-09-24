@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\module3\\zoo\\aviaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|solutionrelative:zoo\\aviaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\module3\\interfaces\\iaviary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|solutionrelative:interfaces\\iaviary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\module3\\zoo\\methods\\zoomethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|solutionrelative:zoo\\methods\\zoomethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\module3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\module3\\testing\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|solutionrelative:testing\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\module3\\zoo\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|solutionrelative:zoo\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\module3\\zoo\\animals\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA28B0B1-5CA9-7C37-399C-8653CF0C58F8}|Module3.csproj|solutionrelative:zoo\\animals\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T10:12:08.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestClass.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\testing\\TestClass.cs",
+              "RelativeDocumentMoniker": "testing\\TestClass.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\testing\\TestClass.cs",
+              "RelativeToolTip": "testing\\TestClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T10:11:46.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZooMethods.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\methods\\ZooMethods.cs",
+              "RelativeDocumentMoniker": "zoo\\methods\\ZooMethods.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\methods\\ZooMethods.cs",
+              "RelativeToolTip": "zoo\\methods\\ZooMethods.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T10:04:59.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Zoo.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\Zoo.cs",
+              "RelativeDocumentMoniker": "zoo\\Zoo.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\Zoo.cs",
+              "RelativeToolTip": "zoo\\Zoo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T10:03:33.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAviary.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\interfaces\\IAviary.cs",
+              "RelativeDocumentMoniker": "interfaces\\IAviary.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\interfaces\\IAviary.cs",
+              "RelativeToolTip": "interfaces\\IAviary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T09:41:54.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Aviaries.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\Aviaries.cs",
+              "RelativeDocumentMoniker": "zoo\\Aviaries.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\Aviaries.cs",
+              "RelativeToolTip": "zoo\\Aviaries.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T09:28:44.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\animals\\Animal.cs",
+              "RelativeDocumentMoniker": "zoo\\animals\\Animal.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\Module3\\zoo\\animals\\Animal.cs",
+              "RelativeToolTip": "zoo\\animals\\Animal.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T09:21:11.901Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

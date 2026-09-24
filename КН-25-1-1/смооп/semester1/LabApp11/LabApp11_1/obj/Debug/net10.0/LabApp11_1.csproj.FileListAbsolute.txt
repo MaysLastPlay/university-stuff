@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\LabApp11\LabApp11_1\bin\Debug\net10.0\LabApp11_1.exe
+E:\VS University Code\смооп\LabApp11\LabApp11_1\bin\Debug\net10.0\LabApp11_1.deps.json
+E:\VS University Code\смооп\LabApp11\LabApp11_1\bin\Debug\net10.0\LabApp11_1.runtimeconfig.json
+E:\VS University Code\смооп\LabApp11\LabApp11_1\bin\Debug\net10.0\LabApp11_1.dll
+E:\VS University Code\смооп\LabApp11\LabApp11_1\bin\Debug\net10.0\LabApp11_1.pdb
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\LabApp11_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\LabApp11_1.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\LabApp11_1.AssemblyInfo.cs
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\LabApp11_1.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\LabApp11_1.dll
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\refint\LabApp11_1.dll
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\LabApp11_1.pdb
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\LabApp11_1.genruntimeconfig.cache
+E:\VS University Code\смооп\LabApp11\LabApp11_1\obj\Debug\net10.0\ref\LabApp11_1.dll

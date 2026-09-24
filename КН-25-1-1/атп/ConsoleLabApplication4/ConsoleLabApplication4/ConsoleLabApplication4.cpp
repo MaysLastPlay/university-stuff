@@ -2,7 +2,8 @@
 #include <cmath>
 using namespace std;
 
-/*void function(int a[], int size);
+//Визначити два мінімальних елементи у масиві розмірності N елементів і підрахувати суму та кількість елементів, що розташовані між мінімальними.
+void function(int a[], int size);
 
 int main(){
     setlocale(LC_ALL, "uk_UA");
@@ -77,13 +78,23 @@ void function(int a[], int size) {
         count++;
     }
 
-    cout << "Min1:" << min1 << " Min2:" << min2 << "\nSum:" << sum << " Count:" << count << endl;
-}*/
+    int swap = a[i1];
+    a[i1] = a[i2];
+    a[i2] = swap;
 
-// 4.2
+    cout << "Array after swap: ";
+    for (int i = 0; i < size; i++) {
+        cout << a[i] << " ";
+    }
+
+    cout << "Min1:" << min1 << " Min2:" << min2 << "\nSum:" << sum << " Count:" << count << endl;
+}
+
+// 4.2; Обчислити вектор Z={zi}, i=1..m, що дорівнює добутку матриці А={aij} розмірності m × n на вектор Х={хj}, елементи якого обчислюють за формулою   Перевірити, чи являються елементи вектора Z упорядкованими за збільшенням. Якщо ні, то показати перший елемент, що порушив порядок, а також номер цього елемента.
+
 const int yay = 100;
 
-void vectorx(double X[], int n, int k) {
+/*void vectorx(double X[], int n, int k) {
     for (int i = 0; i < n; ++i) {
         int j = i + 1;
         if (j <= k)
@@ -93,7 +104,7 @@ void vectorx(double X[], int n, int k) {
     }
 }
 
-    void idkwhattocallthis(const double A[][yay], const double X[], double Z[], int m, int n) {
+    void vectorz(const double A[][yay], const double X[], double Z[], int m, int n) {
         for (int i = 0; i < m; ++i) {
             Z[i] = 0;
             for (int j = 0; j < n; ++j) {
@@ -144,7 +155,7 @@ int main() {
     }
 
     vectorx(X, n, k);
-    idkwhattocallthis(A, X, Z, m, n);
+    vectorz(A, X, Z, m, n);
     cout << "vector Z: ";
     show(Z, m);
 
@@ -153,4 +164,4 @@ int main() {
     else
         cout << "Result: vector is not ordered." << endl;
     system("pause");
-}
+}*/

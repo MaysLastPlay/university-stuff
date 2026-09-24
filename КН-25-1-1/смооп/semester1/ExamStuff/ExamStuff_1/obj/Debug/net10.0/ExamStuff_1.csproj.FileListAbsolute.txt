@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ExamStuff_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ExamStuff_1.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ExamStuff_1.AssemblyInfo.cs
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ExamStuff_1.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\bin\Debug\net10.0\ExamStuff_1.exe
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\bin\Debug\net10.0\ExamStuff_1.deps.json
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\bin\Debug\net10.0\ExamStuff_1.runtimeconfig.json
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\bin\Debug\net10.0\ExamStuff_1.dll
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\bin\Debug\net10.0\ExamStuff_1.pdb
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ExamStuff_1.dll
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\refint\ExamStuff_1.dll
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ExamStuff_1.pdb
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ExamStuff_1.genruntimeconfig.cache
+E:\VS University Code\смооп\ExamStuff\ExamStuff_1\obj\Debug\net10.0\ref\ExamStuff_1.dll

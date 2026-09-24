@@ -1,0 +1,5 @@
+﻿  ConsoleLabApp6.cpp
+D:\VS University Code\ConsoleLabApp6\ConsoleLabApp6.cpp(17,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\VS University Code\ConsoleLabApp6\ConsoleLabApp6.cpp(66,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\VS University Code\ConsoleLabApp6\ConsoleLabApp6.cpp(67,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ConsoleLabApp6.vcxproj -> D:\VS University Code\ConsoleLabApp6\x64\Debug\ConsoleLabApp6.exe

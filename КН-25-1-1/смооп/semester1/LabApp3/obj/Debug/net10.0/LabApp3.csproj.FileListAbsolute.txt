@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\LabApp3\bin\Debug\net10.0\LabApp3.exe
+E:\VS University Code\смооп\LabApp3\bin\Debug\net10.0\LabApp3.deps.json
+E:\VS University Code\смооп\LabApp3\bin\Debug\net10.0\LabApp3.runtimeconfig.json
+E:\VS University Code\смооп\LabApp3\bin\Debug\net10.0\LabApp3.dll
+E:\VS University Code\смооп\LabApp3\bin\Debug\net10.0\LabApp3.pdb
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\LabApp3.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\LabApp3.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\LabApp3.AssemblyInfo.cs
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\LabApp3.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\LabApp3.dll
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\refint\LabApp3.dll
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\LabApp3.pdb
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\LabApp3.genruntimeconfig.cache
+E:\VS University Code\смооп\LabApp3\obj\Debug\net10.0\ref\LabApp3.dll

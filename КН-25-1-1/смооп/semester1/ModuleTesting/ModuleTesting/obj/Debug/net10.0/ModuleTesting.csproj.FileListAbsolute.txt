@@ -1,0 +1,14 @@
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\bin\Debug\net10.0\ModuleTesting.exe
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\bin\Debug\net10.0\ModuleTesting.deps.json
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\bin\Debug\net10.0\ModuleTesting.runtimeconfig.json
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\bin\Debug\net10.0\ModuleTesting.dll
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\bin\Debug\net10.0\ModuleTesting.pdb
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ModuleTesting.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ModuleTesting.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ModuleTesting.AssemblyInfo.cs
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ModuleTesting.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ModuleTesting.dll
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\refint\ModuleTesting.dll
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ModuleTesting.pdb
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ModuleTesting.genruntimeconfig.cache
+E:\VS University Code\смооп\ModuleTesting\ModuleTesting\obj\Debug\net10.0\ref\ModuleTesting.dll

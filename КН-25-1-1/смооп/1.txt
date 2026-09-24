@@ -1,0 +1,29 @@
+Перший крок до програмування мовою C#
+
+1. using System;
+namespace A {
+  class Class1 {
+    static void Main() {
+        Console.Write("*************");
+     }
+   }
+}
+
+2. using System;
+namespace CA1 {
+  class ClassC1 {
+    static void Main() {
+        int x = 3, y = 3;
+        Console.Write("Значення префіксного виразу:");
+        Console.WriteLine("++x");
+        Console.Write("Значення x після збільшення:");
+        Console.WriteLine("x");
+
+        Console.Write("Значення постфіксного виразу:");
+        Console.WriteLine("y++:");
+        Console.Write("Значення y після збільшення:");
+        Console.WriteLine("y");
+
+     }
+   }
+}
