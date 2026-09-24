@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp1\\task2\\workspace\\testingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|solutionrelative:task2\\workspace\\testingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7FAF42-D456-4646-9BF7-908382CC56D4}|Task3\\Task3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp1\\task3\\workspace\\testingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7FAF42-D456-4646-9BF7-908382CC56D4}|Task3\\Task3.csproj|solutionrelative:task3\\workspace\\testingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp1\\task2\\workspace\\items\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|solutionrelative:task2\\workspace\\items\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp1\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|solutionrelative:task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp1\\task2\\workspace\\items\\wordanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DDB116B-8CB9-4DFF-A7C7-044077855006}|Task2\\Task2.csproj|solutionrelative:task2\\workspace\\items\\wordanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7FAF42-D456-4646-9BF7-908382CC56D4}|Task3\\Task3.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp1\\task3\\workspace\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7FAF42-D456-4646-9BF7-908382CC56D4}|Task3\\Task3.csproj|solutionrelative:task3\\workspace\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,53 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestingState.cs",
-              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\workspace\\TestingState.cs",
-              "RelativeDocumentMoniker": "Task2\\workspace\\TestingState.cs",
-              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\workspace\\TestingState.cs",
-              "RelativeToolTip": "Task2\\workspace\\TestingState.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCEAAAA0AAAAAAAAAA==",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task3\\workspace\\TestingState.cs",
+              "RelativeDocumentMoniker": "Task3\\workspace\\TestingState.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task3\\workspace\\TestingState.cs",
+              "RelativeToolTip": "Task3\\workspace\\TestingState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T11:55:26.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WordAnalyzer.cs",
-              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\workspace\\items\\WordAnalyzer.cs",
-              "RelativeDocumentMoniker": "Task2\\workspace\\items\\WordAnalyzer.cs",
-              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\workspace\\items\\WordAnalyzer.cs",
-              "RelativeToolTip": "Task2\\workspace\\items\\WordAnalyzer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T11:44:52.813Z",
+              "WhenOpened": "2026-09-24T16:15:50.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\workspace\\items\\FileManager.cs",
-              "RelativeDocumentMoniker": "Task2\\workspace\\items\\FileManager.cs",
-              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\workspace\\items\\FileManager.cs",
-              "RelativeToolTip": "Task2\\workspace\\items\\FileManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwBIAAAAMAAAAAAAAAA==",
+              "Title": "Printer.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task3\\workspace\\Printer.cs",
+              "RelativeDocumentMoniker": "Task3\\workspace\\Printer.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task3\\workspace\\Printer.cs",
+              "RelativeToolTip": "Task3\\workspace\\Printer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T11:34:10.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\Program.cs",
-              "RelativeDocumentMoniker": "Task2\\Program.cs",
-              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp1\\Task2\\Program.cs",
-              "RelativeToolTip": "Task2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T11:22:05.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-24T16:15:02.696Z"
             }
           ]
         }

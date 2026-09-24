@@ -11,8 +11,8 @@ namespace Task2.workspace
         {
             var analyzer = new WordAnalyzer();
             var files = FileManager.ReadFileLines("firstFile.txt");
-
-            while (true)
+            string? input;
+            do
             {
                 Console.WriteLine("\nAvailable files:");
                 for (int i = 0; i < files.Count; i++)
@@ -22,8 +22,7 @@ namespace Task2.workspace
                 Console.WriteLine("0 - Exit");
 
                 Console.Write("\nChoice: ");
-                string? input = Console.ReadLine();
-
+                input = Console.ReadLine();
                 if (input == "0")
                 {
                     break;
@@ -47,7 +46,7 @@ namespace Task2.workspace
                 {
                     Console.WriteLine("Invalid choice. Try again.");
                 }
-            }
+            } while (input != "0");
 
             Console.WriteLine("\nPress any key to continue...");
             Console.ReadKey();
