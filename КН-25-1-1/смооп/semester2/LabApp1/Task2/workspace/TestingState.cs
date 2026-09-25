@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Task2.workspace.items;
 
 namespace Task2.workspace
 {
     internal class TestingState
     {
-        public void RunTests()
+        public async Task RunTests()
         {
             var analyzer = new WordAnalyzer();
-            var files = FileManager.ReadFileLines("firstFile.txt");
+            var files = FileManager.ReadFileLines("firstFile.txt").Result;
             string? input;
             do
             {
@@ -31,7 +32,7 @@ namespace Task2.workspace
                 if (int.TryParse(input, out int ind) && ind > 0 && ind <= files.Count)
                 {
                     string selectedFile = files[ind - 1];
-                    analyzer.ProcessLines(selectedFile);
+                    await analyzer.ProcessLines(selectedFile);
 
                     Console.WriteLine($"\nWord count for {selectedFile}:");
                     foreach (var pair in analyzer.wordCount)
@@ -39,7 +40,7 @@ namespace Task2.workspace
                         Console.WriteLine($"{pair.Key}: {pair.Value}");
                     }
 
-                    FileManager.Save("wordCount.txt", analyzer.wordCount);
+                    await FileManager.Save("wordCount.txt", analyzer.wordCount);
                     Console.WriteLine("\nWord count saved to wordCount.txt");
                 }
                 else

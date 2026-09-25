@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Task3.workspace;
 using Task3.workspace.items;
 
@@ -8,7 +9,7 @@ namespace Task3.workspace
 {
     internal class TestingState
     {
-        public static void RunTests()
+        public static async Task RunTests()
         {
             var printer = new Printer();
 
@@ -23,7 +24,7 @@ namespace Task3.workspace
             printer.Print(); // Attempt to print when no jobs are left
 
             printer.ShowHistory();
-            printer.SaveHistory("test_stats.txt");
+            await printer.SaveHistory("test_stats.txt");
         }
     }
 }

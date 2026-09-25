@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Task2.workspace.items
 {
     internal class WordAnalyzer
     {
         public Dictionary<string, int> wordCount { get; } = new Dictionary<string, int>();
-        public void ProcessLines(string filePath)
+        public async Task ProcessLines(string filePath)
         {
             wordCount.Clear();
-            var lines = FileManager.ReadFileLines(filePath);
+            var lines = await FileManager.ReadFileLines(filePath);
             foreach (var line in lines)
             {
                 var words = line.Split(new[] { ' ', '\t', '.', ',', ';', ':', '!', '?', '(', ')', '[', ']', '{', '}', '"', '\'' }, StringSplitOptions.RemoveEmptyEntries);

@@ -11,9 +11,8 @@ namespace Task1.workspace
     internal class Movies
     {
         private protected List<Movie> movies { get; set; } = new List<Movie>();
-        public Movies()
-        {
-        }
+
+        public Movies() { }
 
         public Movies(List<Movie> list)
         {
@@ -36,7 +35,7 @@ namespace Task1.workspace
             movies.Add(movie);
         }
 
-        public void removeMovie(Movie movie)
+        public void removeMovie(Movie? movie)
         {
             if (movie == null || !movies.Contains(movie))
                 throw new ArgumentException("You don't have this movie there, wanna add it first?");
@@ -47,7 +46,7 @@ namespace Task1.workspace
         public void removeMovieAt(int index)
         {
             if (index < 0 || index >= movies.Count)
-                throw new ArgumentOutOfRangeException("Index is out of range.");
+                throw new ArgumentException("Index is out of range.");
 
             movies.RemoveAt(index);
         }

@@ -6,7 +6,7 @@ namespace Task3.workspace.items
 {
     public enum Priority
     {
-        Normal = 0,
-        High = 1
+        Normal,
+        High
     }
 }
