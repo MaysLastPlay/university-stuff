@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9819BEC-2BB6-4A29-894A-795D07E075D3}|Task1\\Task1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9819BEC-2BB6-4A29-894A-795D07E075D3}|Task1\\Task1.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\services\\phoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\services\\phoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\services\\firmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\services\\firmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Task1\\services\\CompanyService.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\CompanyService.cs",
+              "RelativeToolTip": "Task1\\services\\CompanyService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wBkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:14:56.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhoneService.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\PhoneService.cs",
+              "RelativeDocumentMoniker": "Task1\\services\\PhoneService.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\PhoneService.cs",
+              "RelativeToolTip": "Task1\\services\\PhoneService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwDEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T17:10:34.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirmService.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\FirmService.cs",
+              "RelativeDocumentMoniker": "Task1\\services\\FirmService.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\FirmService.cs",
+              "RelativeToolTip": "Task1\\services\\FirmService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wBEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T16:45:30.384Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Company.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\models\\Company.cs",
+              "RelativeDocumentMoniker": "Task1\\models\\Company.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\models\\Company.cs",
+              "RelativeToolTip": "Task1\\models\\Company.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T16:27:52.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\Program.cs",
               "RelativeDocumentMoniker": "Task1\\Program.cs",
               "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\Program.cs",
               "RelativeToolTip": "Task1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T10:54:09.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-25T10:54:09.143Z"
             }
           ]
         }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS University Code\\смооп\\semester2\\LabApp2\\Task1\\Task1.csproj",
-      "projectName": "Task1",
-      "projectPath": "E:\\VS University Code\\смооп\\semester2\\LabApp2\\Task1\\Task1.csproj",
+      "projectUniqueName": "E:\\VS University Code\\смооп\\semester2\\LabApp2\\Task1\\Lab2.csproj",
+      "projectName": "Lab2",
+      "projectPath": "E:\\VS University Code\\смооп\\semester2\\LabApp2\\Task1\\Lab2.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
       "outputPath": "E:\\VS University Code\\смооп\\semester2\\LabApp2\\Task1\\obj\\",
       "projectStyle": "PackageReference",

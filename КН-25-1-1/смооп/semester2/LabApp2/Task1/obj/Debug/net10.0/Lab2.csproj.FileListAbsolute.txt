@@ -1,0 +1,15 @@
+E:\VS University Code\смооп\semester2\LabApp2\Task1\bin\Debug\net10.0\Lab2.exe
+E:\VS University Code\смооп\semester2\LabApp2\Task1\bin\Debug\net10.0\Lab2.deps.json
+E:\VS University Code\смооп\semester2\LabApp2\Task1\bin\Debug\net10.0\Lab2.runtimeconfig.json
+E:\VS University Code\смооп\semester2\LabApp2\Task1\bin\Debug\net10.0\Lab2.dll
+E:\VS University Code\смооп\semester2\LabApp2\Task1\bin\Debug\net10.0\Lab2.pdb
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.AssemblyInfo.cs
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.dll
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\refint\Lab2.dll
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.pdb
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.genruntimeconfig.cache
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\ref\Lab2.dll
+E:\VS University Code\смооп\semester2\LabApp2\Task1\obj\Debug\net10.0\Lab2.csproj.Up2Date
