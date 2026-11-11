@@ -9,14 +9,6 @@ namespace Task1.models
     public record Employer(string Name, string Surname, DateTime BirthDate, decimal Salary, int WorkExperienceYears, bool hasHigherEducation)
     {
         public string FullName => $"{Name} {Surname}";
-        public int Age
-        {
-            get
-            {
-                var age = DateTime.Today.Year - BirthDate.Year;
-                return BirthDate.Date > DateTime.Today.AddYears(-age) ? age - 1 : age;
-            }
-        }
         public override string ToString() => $"{FullName} (Born: {BirthDate:dd.MM.yyyy}, Exp: {WorkExperienceYears} yrs, Salary: ${Salary:N0})";
     }
         

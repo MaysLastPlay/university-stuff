@@ -28,45 +28,45 @@ public class PhoneService
 
     public decimal GetMinPrice()
     {
-        if (_phones.Count == 0)
-        {
-            throw new InvalidOperationException("The phone list is empty.");
-        }
-        decimal min = decimal.MaxValue;
-        foreach (var phone in _phones)
-        {
-            if (phone.Price < min)
-                min = phone.Price;
+        //if (_phones.Count == 0)
+        //{
+        //    throw new InvalidOperationException("The phone list is empty.");
+        //}
+        //decimal min = decimal.MaxValue;
+        //foreach (var phone in _phones)
+        //{
+        //    if (phone.Price < min)
+        //        min = phone.Price;
 
-        }
-        return min;
+        //}
+        return _phones.Min(phone => phone.Price);
     }
     public decimal GetMaxPrice()
     {
-        if (_phones.Count == 0)
-        {
-            throw new InvalidOperationException("The phone list is empty.");
-        }
-        decimal max = decimal.MinValue;
-        foreach (var phone in _phones)
-        {
-            if (phone.Price > max)
-                max = phone.Price;
-        }
-        return max;
+        //if (_phones.Count == 0)
+        //{
+        //    throw new InvalidOperationException("The phone list is empty.");
+        //}
+        //decimal max = decimal.MinValue;
+        //foreach (var phone in _phones)
+        //{
+        //    if (phone.Price > max)
+        //        max = phone.Price;
+        //}
+        return _phones.Max(phone => phone.Price);
     }
     public decimal GetAveragePrice()
     {
-        if (_phones.Count == 0)
-        {
-            throw new InvalidOperationException("The phone list is empty.");
-        }
-        decimal sum = 0;
-        foreach (var phone in _phones)
-        {
-            sum += phone.Price;
-        }
-        return sum / _phones.Count;
+        //if (_phones.Count == 0)
+        //{
+        //    throw new InvalidOperationException("The phone list is empty.");
+        //}
+        //decimal sum = 0;
+        //foreach (var phone in _phones)
+        //{
+        //    sum += phone.Price;
+        //}
+        return _phones.Average(phone => phone.Price);
     }
 
     public Phone GetOldestPhone() => _phones.OrderBy(p => p.ReleaseDate).First();

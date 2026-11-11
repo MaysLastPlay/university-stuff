@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма реєстрації на Game Jam</title>
+</head>
+<body>
+    <header>
+        <h1>Реєстрація розробника на Game Jam</h1>
+        <p>Заповніть цю форму, щоб подати заявку на участь у нашому хакатоні з розробки ігор.</p>
+    </header>
+    
+    <main>
+        <form action="#" method="get">
+            
+            <fieldset>
+                <legend>Особисті дані</legend>
+                
+                <label for="nickname">Ваш нікнейм (або ім'я):</label>
+                <input type="text" id="nickname" name="nickname" required autofocus placeholder="Наприклад, Yevhenii">
+                <br><br>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                <br><br>
+                
+                <label for="age">Ваш вік:</label>
+                <input type="number" id="age" name="age" min="12" max="99" value="19">
+                <br><br>
+
+                <label for="join_date">Коли плануєте почати роботу:</label>
+                <input type="date" id="join_date" name="join_date">
+            </fieldset>
+            
+            <br>
+            
+            <fieldset>
+                <legend>Професійні навички та інструменти</legend>
+                
+                <p>Який рушій (або фреймворк) ви плануєте використовувати?</p>
+                <input type="radio" id="engine_unity" name="engine" value="Unity">
+                <label for="engine_unity">Unity 6 / C#</label><br>
+                
+                <input type="radio" id="engine_haxe" name="engine" value="HaxeFlixel" checked>
+                <label for="engine_haxe">HaxeFlixel / OpenFL</label><br>
+                
+                <input type="radio" id="engine_custom" name="engine" value="Custom">
+                <label for="engine_custom">Власний рушій (C++ тощо)</label>
+                <br><br>
+                
+                <p>Які ролі ви готові виконувати в команді? (Можна обрати кілька)</p>
+                <input type="checkbox" id="role_programmer" name="role_programmer" value="Programmer" checked>
+                <label for="role_programmer">Програміст</label><br>
+                
+                <input type="checkbox" id="role_artist" name="role_artist" value="Artist">
+                <label for="role_artist">Художник / Аніматор</label><br>
+                
+                <input type="checkbox" id="role_musician" name="role_musician" value="Musician">
+                <label for="role_musician">Композитор / Саунд-дизайнер</label>
+            </fieldset>
+            
+            <br>
+
+            <fieldset>
+                <legend>Додаткова інформація</legend>
+                
+                <label for="github_link">Посилання на ваш GitHub або портфоліо:</label>
+                <input type="url" id="github_link" name="github_link" placeholder="https://github.com/your-profile">
+                <br><br>
+
+                <label for="team_color">Оберіть колір вашої майбутньої команди:</label>
+                <input type="color" id="team_color" name="team_color" value="#ff0000">
+                <br><br>
+
+                <label for="avatar">Завантажте аватар або концепт-арт (необов'язково):</label>
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                <br><br>
+                
+                <label for="idea">Розкажіть коротко про вашу ідею для гри:</label><br>
+                <textarea id="idea" name="idea" rows="4" cols="50" placeholder="Опишіть жанр, механіки тощо..."></textarea>
+            </fieldset>
+            
+            <br>
+            
+            <input type="submit" value="Відправити заявку">
+            <input type="reset" value="Очистити форму">
+            
+        </form>
+    </main>
+</body>
+</html>

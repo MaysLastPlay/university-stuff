@@ -21,13 +21,11 @@ public class FirmService
     public List<Firm> GetByNameFood() => _firms.Where(f => f.Name.Contains("Food", StringComparison.OrdinalIgnoreCase)).ToList();
     public List<Firm> GetByProfileMarketing() => _firms.Where(f => f.businessProfile.Equals("Marketing", StringComparison.OrdinalIgnoreCase)).ToList();
     public List<Firm> GetByProfileMarketingOrIT() => _firms.Where(f => f.businessProfile is "Marketing" or "IT").ToList();
-
     public List<Firm> GetWithEmployeesMoreThan(int count) => _firms.Where(f => f.EmployeesCount > count).ToList();
     public List<Firm> GetWithEmployeesBetween(int min, int max) => _firms.Where(f => f.EmployeesCount >= min && f.EmployeesCount <= max).ToList();
     public List<Firm> GetInLondon() => _firms.Where(f => f.address.Contains("London", StringComparison.OrdinalIgnoreCase)).ToList();
     public List<Firm> GetByDirectorLastName(string lastName) => _firms.Where(f => f.Director.LastName.Equals(lastName, StringComparison.OrdinalIgnoreCase)).ToList();
     public List<Firm> GetOlderThanYears(int years) => _firms.Where(f => f.creationDate <= DateTime.Now.AddYears(-years)).ToList();
     public List<Firm> GetOlderThanDays(int days) => _firms.Where(f => (DateTime.Now - f.creationDate).TotalDays > days).ToList();
-    public List<Firm> GetWithDirectorBlackAndNameWhite() =>
-        _firms.Where(f => f.Director.LastName == "Black" && f.Name.Contains("White", StringComparison.OrdinalIgnoreCase)).ToList();
+    public List<Firm> GetWithDirectorBlackAndNameWhite() => _firms.Where(f => f.Director.LastName == "Black" && f.Name.Contains("White", StringComparison.OrdinalIgnoreCase)).ToList();
 }

@@ -1,5 +1,4 @@
 ﻿using Task1.services;
-using Task1.models;
 
 var firmService = new FirmService();
 var phoneService = new PhoneService();
@@ -21,9 +20,9 @@ static void RunFirms(FirmService s)
 {
     Console.WriteLine($"\n--- Firms ---\nTotal: {s.GetAll().Count}");
     Console.WriteLine($"Food names: {string.Join(", ", s.GetByNameFood().Select(f => f.Name))}");
-    Console.WriteLine($"Marketing/IT: {s.GetByProfileMarketingOrIT().Count} | In London: {s.GetInLondon().Count}");
-    Console.WriteLine($"Director White: {s.GetByDirectorLastName("White").Count} | Staff > 100: {s.GetWithEmployeesMoreThan(100).Count}");
-    Console.WriteLine($"Older 2 yrs: {s.GetOlderThanYears(2).Count} | Black + White: {s.GetWithDirectorBlackAndNameWhite().Count}");
+    Console.WriteLine($"Marketing: {s.GetByProfileMarketing().Count} | Marketing or IT: {s.GetByProfileMarketingOrIT().Count} | In London: {s.GetInLondon().Count}");
+    Console.WriteLine($"Director White: {s.GetByDirectorLastName("White").Count} | Staff > 100: {s.GetWithEmployeesMoreThan(100).Count} | Staff > 100 < 300: {s.GetWithEmployeesBetween(100, 300).Count}");
+    Console.WriteLine($"Older 150d: {s.GetOlderThanDays(150).Count} | Older 2 yrs: {s.GetOlderThanYears(2).Count} | Black + White: {s.GetWithDirectorBlackAndNameWhite().Count}");
 }
 
 static void RunPhones(PhoneService s)
@@ -33,6 +32,8 @@ static void RunPhones(PhoneService s)
     Console.WriteLine($"Oldest: {s.GetOldestPhone()} | Newest: {s.GetNewestPhone()}");
     Console.WriteLine($"Top 3: {string.Join(", ", s.GetTopExpensive(3).Select(p => $"{p.Model} (${p.Price})"))}");
     Console.WriteLine($"By Brand: {string.Join(", ", s.GetStatsByManufacturer().Select(x => $"{x.Key}:{x.Value}"))}");
+    Console.WriteLine($"By Model: {string.Join(", ", s.GetStatsByModel().Select(x => $"{x.Key}:{x.Value}"))}");
+    Console.WriteLine($"By Year: {string.Join(", ", s.GetStatsByYear().Select(x => $"{x.Key}:{x.Value}"))}");
 }
 
 static void RunCompany(CompanyService s)
@@ -43,9 +44,7 @@ static void RunCompany(CompanyService s)
 
     var vol = s.GetYoungestVolodymyr();
     if (vol != null)
-    {
         Console.WriteLine($"Bonus to {vol.Name} {vol.Surname}: ${vol.Salary / 3m:N2}");
-    }
 
     Console.WriteLine("\nBorn in October:");
     foreach (var (role, employees) in s.GetOctoberBornGroupedByRole())
