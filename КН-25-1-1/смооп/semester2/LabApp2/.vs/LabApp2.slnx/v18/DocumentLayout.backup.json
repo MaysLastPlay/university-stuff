@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\services\\firmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|solutionrelative:task1\\services\\firmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\services\\phoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|solutionrelative:task1\\services\\phoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|e:\\vs university code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\labapp2\\task1\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F602F3C-C015-4706-90D8-EBCFAEC539A5}|Task1\\Lab2.csproj|solutionrelative:task1\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhoneService.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\PhoneService.cs",
+              "RelativeDocumentMoniker": "Task1\\services\\PhoneService.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\PhoneService.cs",
+              "RelativeToolTip": "Task1\\services\\PhoneService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAA0wFIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:43:05.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Task1\\services\\CompanyService.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\CompanyService.cs",
+              "RelativeToolTip": "Task1\\services\\CompanyService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:42:16.94Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FirmService.cs",
+              "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\FirmService.cs",
+              "RelativeDocumentMoniker": "Task1\\services\\FirmService.cs",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\services\\FirmService.cs",
+              "RelativeToolTip": "Task1\\services\\FirmService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wBsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:21:15.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\Program.cs",
               "RelativeDocumentMoniker": "Task1\\Program.cs",
-              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\Program.cs*",
-              "RelativeToolTip": "Task1\\Program.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAADIAAAAAAAAAA==",
+              "ToolTip": "E:\\VS University Code\\\u0441\u043C\u043E\u043E\u043F\\semester2\\LabApp2\\Task1\\Program.cs",
+              "RelativeToolTip": "Task1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T12:25:20.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-08T12:25:20.339Z"
             }
           ]
         }

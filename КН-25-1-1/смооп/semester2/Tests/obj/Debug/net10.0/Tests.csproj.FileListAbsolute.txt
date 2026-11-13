@@ -1,0 +1,15 @@
+E:\VS University Code\смооп\semester2\Tests\bin\Debug\net10.0\Tests.exe
+E:\VS University Code\смооп\semester2\Tests\bin\Debug\net10.0\Tests.deps.json
+E:\VS University Code\смооп\semester2\Tests\bin\Debug\net10.0\Tests.runtimeconfig.json
+E:\VS University Code\смооп\semester2\Tests\bin\Debug\net10.0\Tests.dll
+E:\VS University Code\смооп\semester2\Tests\bin\Debug\net10.0\Tests.pdb
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.AssemblyInfoInputs.cache
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.AssemblyInfo.cs
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.csproj.CoreCompileInputs.cache
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.dll
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\refint\Tests.dll
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.pdb
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.genruntimeconfig.cache
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\ref\Tests.dll
+E:\VS University Code\смооп\semester2\Tests\obj\Debug\net10.0\Tests.csproj.Up2Date
