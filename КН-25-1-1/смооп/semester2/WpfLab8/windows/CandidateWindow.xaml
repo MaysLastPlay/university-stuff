@@ -1,0 +1,70 @@
+﻿<Window x:Class="WpfLab8.windows.CandidateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding WindowTitle}" Height="560" Width="460" ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner" Background="#F4F6F9" FontFamily="Segoe UI">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="White" BorderBrush="#DCDFE6" BorderThickness="1" CornerRadius="6" Padding="15">
+            <StackPanel>
+                <TextBlock Text="П.І.П. кандидата *" FontWeight="SemiBold" Margin="0,0,0,4"/>
+                <TextBox Height="30" VerticalContentAlignment="Center" Padding="6,0" Margin="0,0,0,12" Text="{Binding FullName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <Grid Margin="0,0,0,12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="12"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Text="Дата народження *" FontWeight="SemiBold" Margin="0,0,0,4"/>
+                        <DatePicker Height="30" VerticalContentAlignment="Center" SelectedDate="{Binding BirthDate, Mode=TwoWay}"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2">
+                        <TextBlock Text="Освіта *" FontWeight="SemiBold" Margin="0,0,0,4"/>
+                        <ComboBox Height="30" ItemsSource="{Binding EducationOptions}" SelectedItem="{Binding Education, Mode=TwoWay}"/>
+                    </StackPanel>
+                </Grid>
+
+                <DockPanel Margin="0,0,0,4">
+                    <TextBlock Text="Стаж роботи:" FontWeight="SemiBold"/>
+                    <TextBlock DockPanel.Dock="Right" FontWeight="Bold" Foreground="#2563EB" Text="{Binding ElementName=ExpSlider, Path=Value, StringFormat={}{0:0} р.}"/>
+                </DockPanel>
+                <Slider x:Name="ExpSlider" Minimum="0" Maximum="50" IsSnapToTickEnabled="True" TickFrequency="1" Value="{Binding ExperienceYears, Mode=TwoWay}" Margin="0,0,0,12"/>
+
+                <GroupBox Header="Знання іноземних мов" Padding="10" Margin="0,0,0,12">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="105"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="34"/>
+                            <RowDefinition Height="34"/>
+                            <RowDefinition Height="34"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Англійська:" VerticalAlignment="Center"/>
+                        <ComboBox Grid.Row="0" Grid.Column="1" Height="26" ItemsSource="{Binding LanguageLevelOptions}" SelectedItem="{Binding EnglishLevel, Mode=TwoWay}"/>
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Німецька:" VerticalAlignment="Center"/>
+                        <ComboBox Grid.Row="1" Grid.Column="1" Height="26" ItemsSource="{Binding LanguageLevelOptions}" SelectedItem="{Binding GermanLevel, Mode=TwoWay}"/>
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Французька:" VerticalAlignment="Center"/>
+                        <ComboBox Grid.Row="2" Grid.Column="1" Height="26" ItemsSource="{Binding LanguageLevelOptions}" SelectedItem="{Binding FrenchLevel, Mode=TwoWay}"/>
+                    </Grid>
+                </GroupBox>
+
+                <CheckBox Content="Володію комп'ютером" Margin="0,0,0,6" IsChecked="{Binding HasComputerSkills, Mode=TwoWay}"/>
+                <CheckBox Content="Наявність рекомендацій" Margin="0,0,0,10" IsChecked="{Binding HasRecommendations, Mode=TwoWay}"/>
+                <TextBlock Text="{Binding ValidationError}" Foreground="#C62828" FontSize="12" FontWeight="SemiBold" TextWrapping="Wrap"/>
+            </StackPanel>
+        </Border>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="Скасувати" Width="95" Height="32" Margin="0,0,8,0" Cursor="Hand" IsCancel="True"/>
+            <Button Content="Зберегти" Width="100" Height="32" Background="#2563EB" Foreground="White" FontWeight="SemiBold" BorderThickness="0" Cursor="Hand" IsDefault="True" Click="SaveButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

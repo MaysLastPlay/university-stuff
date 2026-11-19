@@ -1,0 +1,95 @@
+﻿<Window x:Class="WpfLab8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Конкурс на вакантну посаду" Height="620" Width="960" MinHeight="500" MinWidth="780"
+        WindowStartupLocation="CenterScreen" Background="#F4F6F9" FontFamily="Segoe UI">
+    <Window.Resources>
+        <Style x:Key="Card" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#DCDFE6"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="6"/>
+        </Style>
+        <Style x:Key="ActionBtn" TargetType="Button">
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Padding" Value="14,0"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="15"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Style="{StaticResource Card}" Padding="15">
+            <DockPanel LastChildFill="False">
+                <StackPanel DockPanel.Dock="Top">
+                    <TextBlock Text="Фільтри" FontSize="16" FontWeight="Bold" Margin="0,0,0,12"/>
+                    <TextBlock Text="Пошук за П.І.П.:" Margin="0,0,0,4"/>
+                    <TextBox Height="28" VerticalContentAlignment="Center" Padding="5,0" Margin="0,0,0,10" Text="{Binding SearchQuery, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBlock Text="Освіта:" Margin="0,0,0,4"/>
+                    <ComboBox Height="28" Margin="0,0,0,10" ItemsSource="{Binding EducationFilterOptions}" SelectedItem="{Binding SelectedEducationFilter, Mode=TwoWay}"/>
+                    <TextBlock Text="Іноземна мова:" Margin="0,0,0,4"/>
+                    <ComboBox Height="28" Margin="0,0,0,10" ItemsSource="{Binding LanguageFilterOptions}" SelectedItem="{Binding SelectedLanguageFilter, Mode=TwoWay}"/>
+                    <DockPanel Margin="0,0,0,4">
+                        <TextBlock Text="Мін. стаж:"/>
+                        <TextBlock DockPanel.Dock="Right" FontWeight="SemiBold" Foreground="#2563EB" Text="{Binding ElementName=MinExpSlider, Path=Value, StringFormat={}{0:0} р.}"/>
+                    </DockPanel>
+                    <Slider x:Name="MinExpSlider" Minimum="0" Maximum="30" IsSnapToTickEnabled="True" TickFrequency="1" Value="{Binding MinExperienceFilter, Mode=TwoWay}" Margin="0,0,0,12"/>
+                    <CheckBox Content="Володіє комп'ютером" Margin="0,0,0,8" IsChecked="{Binding OnlyWithComputerSkills, Mode=TwoWay}"/>
+                    <CheckBox Content="Має рекомендації" Margin="0,0,0,12" IsChecked="{Binding OnlyWithRecommendations, Mode=TwoWay}"/>
+                </StackPanel>
+                <Button DockPanel.Dock="Bottom" Content="Скинути фільтри" Height="32" Cursor="Hand" Click="ResetFilters_Click"/>
+            </DockPanel>
+        </Border>
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="12"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Style="{StaticResource Card}" Padding="15,10">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" VerticalAlignment="Center">
+                        <Button Content="Додати" MinWidth="88" Margin="0,0,8,0" Style="{StaticResource ActionBtn}" Background="#2563EB" Foreground="White" BorderThickness="0" Click="AddCandidate_Click"/>
+                        <Button Content="Редагувати" MinWidth="95" Margin="0,0,8,0" Style="{StaticResource ActionBtn}" Background="White" Foreground="#1F2937" BorderBrush="#CBD5E1" BorderThickness="1" Click="EditCandidate_Click"/>
+                        <Button Content="Видалити" MinWidth="88" Style="{StaticResource ActionBtn}" Background="#FEF2F2" Foreground="#DC2626" BorderBrush="#FECACA" BorderThickness="1" Click="DeleteCandidate_Click"/>
+                    </StackPanel>
+                    <StackPanel VerticalAlignment="Center" Margin="0,0,16,0">
+                        <TextBlock Text="Кандидати на посаду" FontSize="18" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding CandidatesCountText, Mode=OneWay}" FontSize="12" Foreground="Gray"/>
+                    </StackPanel>
+                </DockPanel>
+            </Border>
+
+            <Border Grid.Row="2" Style="{StaticResource Card}" Padding="10">
+                <ListBox ItemsSource="{Binding CandidatesView}" SelectedItem="{Binding SelectedCandidate, Mode=TwoWay}"
+                         BorderThickness="0" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" VirtualizingPanel.ScrollUnit="Pixel">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="#F9FAFB" BorderBrush="#E5E7EB" BorderThickness="1" CornerRadius="5" Padding="12" Margin="0,0,0,8">
+                                <StackPanel>
+                                    <DockPanel>
+                                        <TextBlock DockPanel.Dock="Right" Foreground="#2563EB" FontWeight="SemiBold" Text="{Binding ExperienceYears, Mode=OneWay, StringFormat={}Стаж: {0} р.}"/>
+                                        <TextBlock Text="{Binding FullName, Mode=OneWay}" FontSize="15" FontWeight="Bold" Margin="0,0,12,0"/>
+                                    </DockPanel>
+                                    <TextBlock Foreground="#4B5563" FontSize="12" Margin="0,4,0,0">
+                                        <Run Text="Дата нар.: "/><Run Text="{Binding BirthDate, Mode=OneWay, StringFormat={}{0:dd.MM.yyyy}}"/><Run Text="  |  Освіта: "/><Run Text="{Binding EducationDisplay, Mode=OneWay}"/>
+                                    </TextBlock>
+                                    <TextBlock Text="{Binding LanguagesSummary, Mode=OneWay}" FontSize="12" Foreground="#374151" Margin="0,4,0,0" TextWrapping="Wrap"/>
+                                    <TextBlock Text="{Binding AdditionalInfoSummary, Mode=OneWay}" FontSize="12" Foreground="#6B7280" Margin="0,4,0,0"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

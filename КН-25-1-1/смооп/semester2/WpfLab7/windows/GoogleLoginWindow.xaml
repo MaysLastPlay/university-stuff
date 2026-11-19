@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfLab7.windows.GoogleLoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Увійти через Google" SizeToContent="Height" Width="350"
+        Background="White" FontFamily="Segoe UI"
+        WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow">
+    <StackPanel Margin="20">
+        <TextBlock Text="G" Foreground="#4285F4" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+        <TextBlock Text="Увійти з Google" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+        <TextBlock Text="Ми вже знаємо ваш пароль, історію браузера та що ви їли на сніданок. Просто натисніть кнопку, щоб підтвердити свою покору алгоритмам." 
+                   TextWrapping="Wrap" TextAlignment="Center" Foreground="Gray" Margin="0,0,0,20"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Втекти" Background="White" Foreground="Gray" BorderBrush="LightGray" Padding="5,10" Margin="5" Click="BtnCancel_Click"/>
+            <Button Grid.Column="1" Content="Здати дані" Background="#4285F4" Foreground="White" BorderThickness="0" Padding="5,10" Margin="5" Click="BtnAccept_Click"/>
+        </Grid>
+    </StackPanel>
+</Window>

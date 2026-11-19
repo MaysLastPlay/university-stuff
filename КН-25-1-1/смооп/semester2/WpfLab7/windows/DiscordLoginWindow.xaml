@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfLab7.windows.DiscordLoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Discord Authorization" Height="280" Width="350"
+        Background="#36393F" FontFamily="Segoe UI"
+        WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow">
+    <StackPanel Margin="20">
+        <TextBlock Text="DISCORD" Foreground="#5865F2" FontSize="36" FontWeight="Black" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+        <TextBlock Text="Готові страждати?" FontSize="20" Foreground="White" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+        <TextBlock Text="Надаючи доступ, ви погоджуєтесь ігнорувати ще 99+ пінгів @everyone з серверів, на які ви випадково зайшли у 2019 році." 
+                   TextWrapping="Wrap" TextAlignment="Center" Foreground="#B9BBBE" Margin="0,0,0,20"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Ні, дякую" Background="#4F545C" Foreground="White" BorderThickness="0" Padding="5,10" Margin="5" Click="BtnCancel_Click"/>
+            <Button Grid.Column="1" Content="Увійти (і м'ютити)" Background="#5865F2" Foreground="White" BorderThickness="0" Padding="5,10" Margin="5" Click="BtnAccept_Click"/>
+        </Grid>
+    </StackPanel>
+</Window>
