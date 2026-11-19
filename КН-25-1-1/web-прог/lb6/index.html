@@ -3,6 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Таблиця Аніматроніків</title>
+    <style>
+        body {
+            background-color: #1e1e24;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header, footer {
+            text-align: center;
+            background-color: #121215;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        footer p {
+            font-size: 0.85rem;
+            margin: 0;
+            color: #a0a0b0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        h1, h2 {
+            color: #fca311;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #2b2b36;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        caption {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fca311;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            border: 1px solid #4a4e69;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        thead th {
+            background-color: #4a4e69;
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #22222b;
+        }
+
+        tbody tr:hover {
+            background-color: #3f3f4e;
+            cursor: pointer;
+        }
+
+        tfoot th {
+            background-color: #121215;
+            color: #fca311;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,7 +90,7 @@
             <h2>Five Nights at Freddy's</h2>
             <p>Таблиця з переліком відомих аніматроніків, їхньою першою появою та типом.</p>
 
-            <table border="1">
+            <table>
                 <caption>Основні аніматроніки франшизи</caption>
                 
                 <thead>
@@ -93,54 +169,4 @@
                     </tr>
                     <tr>
                         <td>Nightmarionne</td>
-                        <td>FNAF 4 (Halloween Edition)</td>
-                        <td>Кошмарна маріонетка</td>
-                    </tr>
-                    <tr>
-                        <td>Circus Baby</td>
-                        <td>FNAF: Sister Location</td>
-                        <td>Гуманоїд</td>
-                    </tr>
-                    <tr>
-                        <td>Funtime Freddy</td>
-                        <td>FNAF: Sister Location</td>
-                        <td>Фантайм ведмідь</td>
-                    </tr>
-                    <tr>
-                        <td>Ennard</td>
-                        <td>FNAF: Sister Location</td>
-                        <td>Гібрид</td>
-                    </tr>
-                    <tr>
-                        <td>Glamrock Freddy</td>
-                        <td>FNAF: Security Breach</td>
-                        <td>Глемрок ведмідь</td>
-                    </tr>
-                    <tr>
-                        <td>Roxanne Wolf</td>
-                        <td>FNAF: Security Breach</td>
-                        <td>Вовчиця</td>
-                    </tr>
-                    <tr>
-                        <td>Montgomery Gator</td>
-                        <td>FNAF: Security Breach</td>
-                        <td>Алігатор</td>
-                    </tr>
-                </tbody>
-                
-                <tfoot>
-                    <tr>
-                        <th>Загалом у списку:</th>
-                        <th>-</th>
-                        <th>20 персонажів</th>
-                    </tr>
-                </tfoot>
-            </table>
-        </section>
-    </main>
-
-    <footer>
-        <p><small>Scott Cawthon, 2014, Fazbear Entertainment</small></p>
-    </footer>
-</body>
-</html>
+                        <td>FNAF 4

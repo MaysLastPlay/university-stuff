@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <title>FNAF Fan Site</title>
+    <style>
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #eee;
+        }
+
+        #header {
+            background-color: #000;
+            color: #cc0000;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #444;
+            margin-bottom: 10px;
+        }
+
+        #left-sidebar {
+            background-color: #222;
+            float: left; /* Обтікання зліва */
+            width: 200px;
+            padding: 15px;
+            border: 2px solid #444;
+            box-sizing: border-box;
+        }
+
+        #left-sidebar a {
+            color: #aaa;
+            text-decoration: none;
+        }
+
+        /* 3. Правий сайдбар */
+        #right-sidebar {
+            background-color: #222;
+            float: right;
+            width: 200px;
+            padding: 15px;
+            border: 2px solid #444;
+            box-sizing: border-box;
+        }
+
+        #main {
+            background-color: #1a1a1a;
+            min-height: 400px;
+            margin-left: 210px; 
+            margin-right: 210px; 
+            padding: 20px;
+            border: 2px solid #444;
+            box-sizing: border-box;
+        }
+
+        #main h2 {
+            color: #ffcc00;
+        }
+
+        .animatronic-card {
+            display: inline-block;
+            width: 150px;
+            background-color: #2a2a2a;
+            border: 1px solid #cc0000;
+            margin: 10px 10px 10px 0;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+        .animatronic-card h4 {
+            margin: 5px 0;
+            color: #cc0000;
+        }
+
+        #footer {
+            background-color: #000;
+            color: #666;
+            text-align: center;
+            padding: 15px;
+            margin-top: 10px;
+            clear: both; /* Обов'язково для скасування обтікання від обох сайдбарів */
+            border: 2px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Five Nights at Freddy's - Фан-спільнота</h1>
+    </div>
+    
+    <div id="left-sidebar">
+        <h3>Камери (Навігація)</h3>
+        <ul>
+            <li><a href="#">CAM 01: Головна</a></li>
+            <li><a href="#">CAM 02: Аніматроніки</a></li>
+            <li><a href="#">CAM 03: Лор та Теорії</a></li>
+        </ul>
+    </div>
+    
+    <div id="right-sidebar">
+        <h3>Unity Розробка</h3>
+        <p>Рішення, гайди та обговорення розробки на Unity 6.</p>
+    </div>
+    
+    <div id="main">
+        <h2>Ласкаво просимо до Піцерії!</h2>
+        <p>Цей сайт створено спеціально для фанатів всесвіту FNAF. Тут ми обговорюємо розробку власних 3D фан-ігор на Unity 6, розбираємо лор та ділимося теоріями.</p>
+        
+        <div class="animatronic-card">
+            <h4>Фредді</h4>
+            <p>Головний талісман</p>
+        </div>
+        <div class="animatronic-card">
+            <h4>Фоксі</h4>
+            <p>Піратська бухта</p>
+        </div>
+        <div class="animatronic-card">
+            <h4>Спрінгтрап</h4>
+            <p>Він завжди повертається</p>
+        </div>
+    </div>
+
+    <!-- Футер сайту -->
+    <div id="footer">
+        <p>&copy; 2026 FNAF Fan Site. Не забувайте перевіряти двері.</p>
+    </div>
+</body>
+</html>
